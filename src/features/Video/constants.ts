@@ -1,0 +1,1 @@
+export const PLACEHOLDER_POSTER = 'https://avatars.mds.yandex.net/i?id=6ee78be1432bd90694ee135f0daf89bf_l-4407838-images-thumbs&n=13';

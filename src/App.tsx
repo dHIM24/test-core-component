@@ -1,8 +1,4 @@
 import React from 'react';
+import { Video } from './features';
 
-export const App = () => {
-
-  return (
-    <div>Тестирование компоненты</div>
-  );
-};
+export const App = () => <Video />;
