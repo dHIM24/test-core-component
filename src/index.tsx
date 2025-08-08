@@ -8,10 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
     <App
-      addressType='Адрес регистрации'
-      setStep={(step) => console.log('Step changed to:', step)}
-      setError={(error) => console.error('Error:', error)}
-      setConfirmationParams={(data) => console.log('Confirmation data:', data)}
+      
     />
   </React.StrictMode>,
 );
