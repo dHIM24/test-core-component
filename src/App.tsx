@@ -1,27 +1,28 @@
-import React, { useState, useRef } from 'react';
-import { Input } from '@alfalab/core-components/input';
-// import { Icon } from '@alfalab/core-components/icon-view';
+import React from 'react';
+import { Switch } from '@alfalab/core-components/switch';
+import ConfirmationModal from './ConfirmationModal';
+import ConfirmationDefault from './ConfirmationDefault';
+import { BlockInfo } from './BlockInfo';
 
 export const App = () => {
-    const css = `
-        button[data-test-id='icon'] {
-            margin-right: var(--gap-12-neg);
-        }
-    `;
+  const [isModal, setIsModal] = React.useState(false);
 
-    return (
-        <div style={{ width: 320 }}>
-            <style>{css}</style>
-            <Input
-                block={true}
-                // label={'Инпут с плейсхолдером'}
-                // placeholder={'Placeholder'}
-                size={56}
-                leftAddons={<div>123</div>}
-                clear={true}
-                // breakpoint={BREAKPOINT}
-                hint='Подсказка под полем'
-            />
-        </div>
-    );
+  return (
+    <div>
+      <h2>Confirmation Component</h2>
+      <Switch checked={isModal} onChange={() => setIsModal(!isModal)} label={isModal ? 'В модальном окне' : 'Стандартный'} />
+
+      <BlockInfo />
+
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: '50vh',
+        }}>
+        {isModal ? <ConfirmationModal /> : <ConfirmationDefault />}
+      </div>
+    </div>
+  );
 };
