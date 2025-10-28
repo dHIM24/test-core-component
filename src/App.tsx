@@ -1,8 +1,7 @@
 import React from 'react';
+import Example from './Example';
 
 export const App = () => {
 
-  return (
-    <div>Тестирование компоненты</div>
-  );
+  return <Example />
 };
