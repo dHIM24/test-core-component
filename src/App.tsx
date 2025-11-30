@@ -1,28 +1,23 @@
 import React from 'react';
-import { Switch } from '@alfalab/core-components/switch';
-import ConfirmationModal from './ConfirmationModal';
-import ConfirmationDefault from './ConfirmationDefault';
-import { BlockInfo } from './BlockInfo';
+import { SteppedProgressBar, SteppedProgressBarView } from '@alfalab/core-components-stepped-progress-bar';
 
 export const App = () => {
-  const [isModal, setIsModal] = React.useState(false);
+  // Теперь тип SteppedProgressBarView доступен напрямую после исправления типов
+  // Маппер с правильной типизацией
+  const viewMapper: Record<SteppedProgressBarView, string> = {
+    positive: 'Положительный',
+    negative: 'Отрицательный',
+    attention: 'Внимание',
+    link: 'Ссылка',
+    tertiary: 'Третичный',
+    secondary: 'Вторичный',
+    primary: 'Основной',
+    accent: 'Акцентный',
+  };
 
   return (
     <div>
-      <h2>Confirmation Component</h2>
-      <Switch checked={isModal} onChange={() => setIsModal(!isModal)} label={isModal ? 'В модальном окне' : 'Стандартный'} />
-
-      <BlockInfo />
-
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          minHeight: '50vh',
-        }}>
-        {isModal ? <ConfirmationModal /> : <ConfirmationDefault />}
-      </div>
+      <SteppedProgressBar maxStep={5} step={2} view='positive' />
     </div>
   );
 };

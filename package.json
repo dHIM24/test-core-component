@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@alfalab/core-components": "^49.6.0",
+    "@alfalab/core-components": "^49.10.0",
     "@alfalab/core-components-config": "^1.0.0",
     "@alfalab/core-components-stack-context": "^1.0.0",
     "@alfalab/core-config": "^1.0.0",
