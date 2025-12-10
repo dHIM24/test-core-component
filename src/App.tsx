@@ -1,7 +1,24 @@
 import React from 'react';
-import Example from './Example';
+import {
+  CoreConfigContext,
+  CoreConfigContextValue,
+} from '@alfalab/core-components-config';
+import Example2 from './Example2';
+import List from './List';
 
 export const App = () => {
+  // const coreConfig = React.useMemo<CoreConfigContextValue>(
+  //   () => ({ breakpoint: 600, client: 'mobile' }),
+  //   [],
+  // );
 
-  return <Example />
+  return (
+    // <CoreConfigContext.Provider value={coreConfig}>
+    <>
+      <List />
+      <Example2 />
+    </>
+    // </CoreConfigContext.Provider>
+  );
 };
+
