@@ -7,7 +7,7 @@
   resolved "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.4.2.tgz"
   integrity sha512-baYZExFpsdkBNuvGKTKWCwKH57HRZLVtycZS05WTQNVOiXVSeAki3nU35zlRbToeMW8aHlJfyS+1C4BOv27q0A==
 
-"@alfalab/core-components-accordion@^2.0.2":
+"@alfalab/core-components-accordion@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-accordion/-/core-components-accordion-2.0.3.tgz#4cb1d80ea4f3badc37928b6110d1b5001f45b02d"
   integrity sha512-47iQRGo3uuE4TrGZu+33fN4kciZ6Gj66j/4HyDy/veW2sf/GS0xzjdHiWmGTQ3ct7SbnO2YKg9oEYQG+LcUG7Q==
@@ -19,7 +19,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-action-button@^2.0.1":
+"@alfalab/core-components-action-button@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-action-button/-/core-components-action-button-2.0.2.tgz#047e626966ebc821658d97b274b5e20cfe87492e"
   integrity sha512-GxukLy1E4OnfRJ/TuLekH+WRpznuZAq1+GRH0rKJ+YXzZmcjC9otqUdFKBhxiBsMh77DqjNhAA5+IWcwpn+mJA==
@@ -31,22 +31,22 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-alert@^5.0.2":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-alert/-/core-components-alert-5.0.3.tgz#94fb0185d987e63a8d58ce59e48ae017d6cfcad8"
-  integrity sha512-td0w3Zr6U9j9UqjdVHbR5h49ryOvr8qAFM0rENU6YW3+mWtTrjx34KxegpcaXTPGCTcsXyinVPli29GSimvz4w==
+"@alfalab/core-components-alert@^5.0.3":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-alert/-/core-components-alert-5.0.4.tgz#67d440e64a0f1318cc4bd0b27c60247a5e96fcc7"
+  integrity sha512-fr9us9dc98FosVpxcdmj+lOq/hA3KSY6p3KicOSFc8/MviAiN3rxQk0RAZ66O+3oNKT9FUpFeN2ttJWNCLXuMA==
   dependencies:
-    "@alfalab/core-components-plate" "^8.1.1"
+    "@alfalab/core-components-plate" "^8.1.2"
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-amount-input@^8.1.2":
-  version "8.1.3"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-amount-input/-/core-components-amount-input-8.1.3.tgz#b8b09f40e384a861ccb44a2daae929ad1aca9c86"
-  integrity sha512-XG3dEJ3pBsNjtOtW7ctPbk3EuPNvLWqmccJRp/2sQV8Wjfxgmm/Lpt7ECVnh58mq9c8U0DVgQV92EERsu6TD9A==
+"@alfalab/core-components-amount-input@^8.1.3":
+  version "8.1.4"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-amount-input/-/core-components-amount-input-8.1.4.tgz#3f4c9af0449e24027c6b5381e79c7a42e6193599"
+  integrity sha512-QMMTOpGsY8vLGDAqB32UjicncpwBLMTGjSUjIizaD0RVxdyDKXRPyXZw0fD4hjZzQcO+08AuZaNZ8Itak3jYSQ==
   dependencies:
     "@alfalab/core-components-input" "^16.0.3"
-    "@alfalab/core-components-number-input" "^3.0.3"
+    "@alfalab/core-components-number-input" "^3.0.4"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-with-suffix" "^5.0.3"
     "@alfalab/data" "^1.9.2"
@@ -64,7 +64,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-attach@^7.0.1":
+"@alfalab/core-components-attach@^7.0.2":
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-attach/-/core-components-attach-7.0.2.tgz#7f5c0d05fff9573ba681c82f64df9671c4eb1930"
   integrity sha512-khbtnvB2IseRG9eOGjCF7VdVT4wSjVK2TGyzBDy+F/yRb2BpZwuIXUZ/jsBe5K9d8+NZg/5dxsmWsA35+qAXqg==
@@ -97,7 +97,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-bank-card@^6.0.2":
+"@alfalab/core-components-bank-card@^6.0.3":
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-bank-card/-/core-components-bank-card-6.0.3.tgz#44b50b11aabbb260dae75c3b1642bd02113efa35"
   integrity sha512-NRjPzxaD3Pr9qo6vUJ9JjcuRSqGlrkXMQQgrCqBzEUAH0QXO+gXrmdDrhce+kcCEEhb2pDoVvMARH5H8QSk6Mg==
@@ -109,7 +109,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-base-modal@^6.0.1", "@alfalab/core-components-base-modal@^6.0.2":
+"@alfalab/core-components-base-modal@^6.0.2":
   version "6.0.2"
   resolved "https://registry.npmjs.org/@alfalab/core-components-base-modal/-/core-components-base-modal-6.0.2.tgz"
   integrity sha512-GwV9Z+Vh6rBfPQhjuUn1SNp71iVSa8iNvRtvArNKm1TJ7w+Bvl70SZzscj+ZAY1upXKIqexNHSkijncGrXpfxA==
@@ -127,7 +127,7 @@
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-bottom-sheet@^7.0.2", "@alfalab/core-components-bottom-sheet@^7.2.1":
+"@alfalab/core-components-bottom-sheet@^7.2.1":
   version "7.2.1"
   resolved "https://registry.npmjs.org/@alfalab/core-components-bottom-sheet/-/core-components-bottom-sheet-7.2.1.tgz"
   integrity sha512-KhZD7rR+3ht26mmSL2K0DmWHgE44R6gxjH73h/5HJEqAOvM81o1YQ9xEOkC397xnPBwU1DXmRnRfsH8JSx8RuQ==
@@ -145,7 +145,25 @@
     tslib "^2.4.0"
     use-sync-external-store "^1.4.0"
 
-"@alfalab/core-components-button@^12.0.1", "@alfalab/core-components-button@^12.0.2":
+"@alfalab/core-components-bottom-sheet@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-bottom-sheet/-/core-components-bottom-sheet-7.3.0.tgz#1124d318bf3f1793ddb32cefdfea0f71a319045d"
+  integrity sha512-Rbb2kMzdvSlM+7ZGCmXhHOP7eGE7iKU4O63MLe/F0WuQYGbh2ogC8ayrzK/+a325nRO8aMxjM/iEu9xqo/uN7A==
+  dependencies:
+    "@alfalab/core-components-backdrop" "^4.0.0"
+    "@alfalab/core-components-base-modal" "^6.0.2"
+    "@alfalab/core-components-navigation-bar-private" "^1.1.2"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/core-components-types" "^1.0.0"
+    classnames "^2.5.1"
+    react-div-100vh "^0.7.0"
+    react-merge-refs "^1.1.0"
+    react-swipeable "^7.0.0"
+    react-transition-group "^4.4.5"
+    tslib "^2.4.0"
+    use-sync-external-store "^1.4.0"
+
+"@alfalab/core-components-button@^12.0.2":
   version "12.0.2"
   resolved "https://registry.npmjs.org/@alfalab/core-components-button/-/core-components-button-12.0.2.tgz"
   integrity sha512-pRCEAGbXnEJrXIHJsO90Ow/yPU7kolP74iVcpNQTmwJh7+Ba2m06ardXfbw1iARWgWUbJfFlXKzPg5jAAIFkbA==
@@ -158,7 +176,7 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-calendar-input@^11.0.3", "@alfalab/core-components-calendar-input@^11.0.5":
+"@alfalab/core-components-calendar-input@^11.0.5":
   version "11.0.5"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-calendar-input/-/core-components-calendar-input-11.0.5.tgz#022250e913d53dc0f5f90b2e2048ae10cd2abe29"
   integrity sha512-F/54squs6fY+iuSCAtD0m8TC5OQltxCH/VN1uBnC9GKTCFYyN1N7qih8S/Q/44eRO8vzmI8hR+EhPcDdacLBIQ==
@@ -173,13 +191,28 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-calendar-range@^8.0.3":
-  version "8.0.5"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-calendar-range/-/core-components-calendar-range-8.0.5.tgz#826553992fe056822214000c6afc8db06b2d37a8"
-  integrity sha512-m8wU9UQKHzpV57/kvGTadJzqfkevU95lX/ng78d7Njw1PZ1J5xofAiYBFYJmtQGGw4m6Kblr9C/OWjqlpfjOuA==
+"@alfalab/core-components-calendar-input@^11.0.6":
+  version "11.0.6"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-calendar-input/-/core-components-calendar-input-11.0.6.tgz#a7620d51bc859f735a5d35b7b80a120739812dc9"
+  integrity sha512-puc/+2ninRUxcFSItHLdEZWwZzcHxfeAUZEgq25H7tS/RooxuvHiRKdkSVeasfWUXyYwHB4nOE4vgbId2TLZ4A==
   dependencies:
-    "@alfalab/core-components-calendar" "^8.0.4"
-    "@alfalab/core-components-calendar-input" "^11.0.5"
+    "@alfalab/core-components-calendar" "^8.0.5"
+    "@alfalab/core-components-date-input" "^5.0.3"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-popover" "^7.1.1"
+    "@alfalab/icons-glyph" "^2.247.0"
+    classnames "^2.5.1"
+    date-fns "^2.16.1"
+    react-merge-refs "^1.1.0"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-calendar-range@^8.0.5":
+  version "8.0.6"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-calendar-range/-/core-components-calendar-range-8.0.6.tgz#1333d8310f497572a604546816ef5f016016ec9e"
+  integrity sha512-yANdCEK49GzElxHWCgWB3cR0u+eZ1O7lOmxeeqZlDL9F/iajJcmt/ll+wTUk8NWIMCehU57IcFb2feS/ulJC1w==
+  dependencies:
+    "@alfalab/core-components-calendar" "^8.0.5"
+    "@alfalab/core-components-calendar-input" "^11.0.6"
     "@alfalab/core-components-date-input" "^5.0.3"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/hooks" "^1.13.1"
@@ -187,18 +220,18 @@
     date-fns "^2.16.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-calendar-with-skeleton@^6.0.2":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-calendar-with-skeleton/-/core-components-calendar-with-skeleton-6.0.4.tgz#b859c42853b3fd317897b5b6adac8d31caede270"
-  integrity sha512-3P55EIkcmvNDJ00vzOZE6qBVpfTtKnoJFoJg9WjBjUbzTPDfJJyhCv4wJnEVEvXsnqJxiYlKjPMzACMJA2KXig==
+"@alfalab/core-components-calendar-with-skeleton@^6.0.4":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-calendar-with-skeleton/-/core-components-calendar-with-skeleton-6.0.5.tgz#4000323fa8a68c769158d0a01fe8855f55b9b800"
+  integrity sha512-rQDDtGyc9psaTdR1QI3Y3p46ns9IXfQQIYiv8tVvILHiZqfyZWfFTdIqajFfQFxkkKPQgnbNcCI1zQKNLfqefA==
   dependencies:
-    "@alfalab/core-components-calendar" "^8.0.4"
+    "@alfalab/core-components-calendar" "^8.0.5"
     "@alfalab/core-components-skeleton" "^6.0.1"
     classnames "^2.5.1"
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-calendar@^8.0.2", "@alfalab/core-components-calendar@^8.0.4":
+"@alfalab/core-components-calendar@^8.0.4":
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-calendar/-/core-components-calendar-8.0.4.tgz#ee4388e2a1d77d069569fb2d4d0efb81b1106400"
   integrity sha512-lhtUfBjdz2/HTP6dSiaAep9rdLtas4VflmQ9VJOHhVTBdy/J0/60UFpPiKMrB5mK2AHSwHZwaEC+iPdqxr+jaA==
@@ -206,6 +239,27 @@
     "@alfalab/core-components-button" "^12.0.2"
     "@alfalab/core-components-icon-button" "^7.0.2"
     "@alfalab/core-components-modal" "^10.0.4"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/core-components-typography" "^5.0.3"
+    "@alfalab/hooks" "^1.13.1"
+    "@alfalab/icons-glyph" "^2.247.0"
+    "@juggle/resize-observer" "^3.3.1"
+    classnames "^2.5.1"
+    date-fns "^2.16.1"
+    react-merge-refs "^1.1.0"
+    react-transition-group "^4.4.5"
+    react-virtuoso "^4.12.5"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-calendar@^8.0.5":
+  version "8.0.5"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-calendar/-/core-components-calendar-8.0.5.tgz#90b62928fae057acfa4ae044ee135aed8b550779"
+  integrity sha512-uHdZP50qht9roI31T47Smg/vRsRMVDRK54dpQkv4jGqCfpv6U9rOk6/PJb0c9c2Nooj8ZegQPPaFCaA+1HU+Qg==
+  dependencies:
+    "@alfalab/core-components-button" "^12.0.2"
+    "@alfalab/core-components-icon-button" "^7.0.3"
+    "@alfalab/core-components-modal" "^10.0.5"
     "@alfalab/core-components-mq" "^5.0.2"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-typography" "^5.0.3"
@@ -227,7 +281,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-cdn-icon@^6.0.1":
+"@alfalab/core-components-cdn-icon@^6.0.2":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-cdn-icon/-/core-components-cdn-icon-6.0.2.tgz#e8c0c84b8f56b164c51b64994a929cbe1ab76b6f"
   integrity sha512-WaKVZ7HlcCA4pPhj8NzjP0vG/D4NYZHGOM7WbdtLKsJq9sTiX9e+BB8haMujCBWHE9/sf0KIf0+WoWnYYOibMw==
@@ -237,7 +291,7 @@
     tslib "^2.4.0"
     use-sync-external-store "^1.4.0"
 
-"@alfalab/core-components-chart@^4.0.2":
+"@alfalab/core-components-chart@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-chart/-/core-components-chart-4.0.3.tgz#c78e8a3b4c056462673d89b863c6066b9ac3da25"
   integrity sha512-ixwqu2OWeV9GTZhb53rYWjovgCUeJOEclRY88fl9YumgDQTWdko0PmP2i1n3l8hTa+0g3GFBPkOlLmOGUsubeA==
@@ -247,7 +301,7 @@
     recharts "^2.12.7"
     tslib "^2.4.0"
 
-"@alfalab/core-components-checkbox-group@^5.1.0":
+"@alfalab/core-components-checkbox-group@^5.1.1":
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-checkbox-group/-/core-components-checkbox-group-5.1.1.tgz#cf984056f7e9645368de6a510e902363e1191668"
   integrity sha512-8/e2DxzLcDJezjh1pCxKhA8NPRAT+lpusLMvD6R8MBirqrLfNMNZPi9cVsOoAqb0BreLFa8fmmAFFy2Ac6TgNQ==
@@ -257,7 +311,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-checkbox@^5.0.1", "@alfalab/core-components-checkbox@^5.0.2":
+"@alfalab/core-components-checkbox@^5.0.2":
   version "5.0.2"
   resolved "https://registry.npmjs.org/@alfalab/core-components-checkbox/-/core-components-checkbox-5.0.2.tgz"
   integrity sha512-/UwG8yCoIgihWvDjs/0ipWscxSw4ZgwwzZs/bDbMHEQZkBkRURyd83jpEBHmmTDkGrXP3leIbbRxYD2IWERL8w==
@@ -268,7 +322,7 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-circular-progress-bar@^4.0.2":
+"@alfalab/core-components-circular-progress-bar@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-circular-progress-bar/-/core-components-circular-progress-bar-4.0.3.tgz#2b7e80d55e2a14a40e7cfb0e3ce76bc5947c73ce"
   integrity sha512-7ZcE3J/+UG4PyMRDLJNUidGrF+1Zsf+hck+/z8l9kGQaHFu0lZ3OJDiwhStNBqtx92Pnkt2moTv21SIY8JS+jw==
@@ -278,7 +332,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-code-input@^4.0.1", "@alfalab/core-components-code-input@^4.1.0":
+"@alfalab/core-components-code-input@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-code-input/-/core-components-code-input-4.1.0.tgz#ee449d56034f077caf081f1beae8301649613140"
   integrity sha512-6vVdQfSouBFsiScyQIluLRMz6YcugCXlh42lRlzop9Jvgh9g4mCqjB3aNZqA9JUMrowB+pSH9vTHWVnNDCw4Jg==
@@ -287,7 +341,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-collapse@^5.0.1":
+"@alfalab/core-components-collapse@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-collapse/-/core-components-collapse-5.1.0.tgz#d742eca9177532148e7137ed303f2d160557ea25"
   integrity sha512-T+K7Zdpw7kjyNf/muMKpx4hf7WeStk7xw2PBR7Hfe9FJ9SbiIiSlPdw03ed/PozlfxLghKXtFPdilU9L6KfkLw==
@@ -299,7 +353,7 @@
     lodash "^4.17.21"
     tslib "^2.4.0"
 
-"@alfalab/core-components-comment@^3.0.2", "@alfalab/core-components-comment@^3.0.3":
+"@alfalab/core-components-comment@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-comment/-/core-components-comment-3.0.3.tgz#5aa2afe16e9c935f928e43a6f0b0550539143722"
   integrity sha512-Fv9obI0NZtFpv5vZv31Zu/47R5DB5qORuepz+ckELmG7p9eqMiQCw9J2w259eFTp3/eaV2pbyzepAqEhcaZ8yA==
@@ -315,7 +369,7 @@
   dependencies:
     tslib "^2.4.0"
 
-"@alfalab/core-components-confirmation-v1@^2.0.1":
+"@alfalab/core-components-confirmation-v1@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-confirmation-v1/-/core-components-confirmation-v1-2.0.3.tgz#76b1e711c4b5e3c02aae412512e3e6bb8a52d9eb"
   integrity sha512-qeo4dyi3j5SkiYjEsZsQBC8ID//yYE9ZkZdTEV/excw7x8HXASLPf4vLsknKcJ6FkLNAogmGILS+jEgFukpb1w==
@@ -329,7 +383,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-confirmation@^14.1.0":
+"@alfalab/core-components-confirmation@^14.2.0":
   version "14.2.0"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-confirmation/-/core-components-confirmation-14.2.0.tgz#df72146299b7a51f118a53f5b26fdcc33fa7526b"
   integrity sha512-tB+W5h2LP+ed5S4xXHM5fnayWuDIDs3wtL68Xo1S8b08s1K0V+DjAZoQY2iqrpNx45yH47UwzaI40c3hvHVEQw==
@@ -344,7 +398,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-custom-button@^4.0.1", "@alfalab/core-components-custom-button@^4.0.2":
+"@alfalab/core-components-custom-button@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-custom-button/-/core-components-custom-button-4.0.2.tgz#dc4c585a49f7330beb709a90c97225d0e308154f"
   integrity sha512-uzJe6tZQMsWUgb1sFlc6SSEOiiOPMkcyNkh9Npru72Kz6Q4J3TJM+2HZ3RkvISYz3kRIqurNfk6Hy/tRCa4a2Q==
@@ -353,19 +407,19 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-custom-picker-button@^3.0.3":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-custom-picker-button/-/core-components-custom-picker-button-3.0.6.tgz#5f4b0d3ff069ead3688f3662b8cd40afab57e15c"
-  integrity sha512-yQGowx1eqp0KaWgEZ7SXeXwdPOoQeJbOz8aFnbByJDgkTKf/LBYTGzGWemw2X4Nmd5p/tMadpVA13Txl2XXkRQ==
+"@alfalab/core-components-custom-picker-button@^3.0.6":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-custom-picker-button/-/core-components-custom-picker-button-3.0.7.tgz#3d0236e7e892d6e95228980c8b86a5c726eb742e"
+  integrity sha512-S1hGFd9OIXp+Nj6DGyL9TnQ+WeaAScMfV8yScRWwj+UE1JjZf6Fxp8LLf0bxb8EkFDKgEGIvSsISfDUCSjls5A==
   dependencies:
     "@alfalab/core-components-custom-button" "^4.0.2"
     "@alfalab/core-components-mq" "^5.0.2"
-    "@alfalab/core-components-picker-button" "^12.0.6"
-    "@alfalab/core-components-select" "^18.2.3"
+    "@alfalab/core-components-picker-button" "^12.0.7"
+    "@alfalab/core-components-select" "^18.2.4"
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-date-input@^5.0.2", "@alfalab/core-components-date-input@^5.0.3":
+"@alfalab/core-components-date-input@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-date-input/-/core-components-date-input-5.0.3.tgz#543a842ff8399a68f0fc45c63b147e00e4594d43"
   integrity sha512-f5QBq7QqGAJy+pwiNVDYd87mWOG5Am7bN5HiWDgLYgPVPtbAjNW0YaeEGNoAXNBuq1wlxZm5i48Ggv7laTNHQw==
@@ -375,13 +429,13 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-date-range-input@^4.0.3":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-date-range-input/-/core-components-date-range-input-4.0.5.tgz#545075ca91c007593f0684635ded6e27906c3d12"
-  integrity sha512-3CmaB3oOkQNQSgy9GnJVnae7W0Cdx+0fctt63lFcZOp1hdwN6YVy5Ztn6djnqN2s9jVDEsfkrDTjk/c4LmSSZg==
+"@alfalab/core-components-date-range-input@^4.0.5":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-date-range-input/-/core-components-date-range-input-4.0.6.tgz#03c19e33263914aca23aa851f009db2727be5f79"
+  integrity sha512-yIEhP4EiAIPDbChQaTUsxLgLuzKxB4oi3AuD4W0+6+AiH/q6InUqeTDVEFbPARc4WeoiwGyA6Ot5JpJt6b1YwQ==
   dependencies:
-    "@alfalab/core-components-calendar" "^8.0.4"
-    "@alfalab/core-components-icon-button" "^7.0.2"
+    "@alfalab/core-components-calendar" "^8.0.5"
+    "@alfalab/core-components-icon-button" "^7.0.3"
     "@alfalab/core-components-input" "^16.0.3"
     "@alfalab/core-components-mq" "^5.0.2"
     "@alfalab/core-components-popover" "^7.1.1"
@@ -392,13 +446,13 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-date-time-input@^5.0.3":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-date-time-input/-/core-components-date-time-input-5.0.5.tgz#d79dcd7d170899500990c4c0f3ba2f4234431916"
-  integrity sha512-KAg/LNlbTAZJMx6l/22R87VHyi7CW/5H2Li1JBJqM5u3AOJ1rBjtT2HSMkpAV0Mp/GqozX7SicpTnUFPeO3ZKw==
+"@alfalab/core-components-date-time-input@^5.0.5":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-date-time-input/-/core-components-date-time-input-5.0.6.tgz#9837909ef502498d38cdfbe385edf05e90a76331"
+  integrity sha512-59GwMjk2LRZTSOEGwQVsYwUqnmMDvlkMFGEulImmM/sOJBqN0/ESLeatBfyvFFVuGlSe7Y+vqEQgBJf6m/so9Q==
   dependencies:
-    "@alfalab/core-components-calendar" "^8.0.4"
-    "@alfalab/core-components-icon-button" "^7.0.2"
+    "@alfalab/core-components-calendar" "^8.0.5"
+    "@alfalab/core-components-icon-button" "^7.0.3"
     "@alfalab/core-components-input" "^16.0.3"
     "@alfalab/core-components-mq" "^5.0.2"
     "@alfalab/core-components-popover" "^7.1.1"
@@ -417,7 +471,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-drawer@^6.0.1", "@alfalab/core-components-drawer@^6.0.2":
+"@alfalab/core-components-drawer@^6.0.2":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-drawer/-/core-components-drawer-6.0.2.tgz#6837695b0570841e049f6da7d57687e1ed2fa7ac"
   integrity sha512-uxPnQ8sXy6snGY3o5zP0xm+uHNxJHhmk2kQ98UXPGE7Nni6kWom3CSbVo7GPPXKgR9aazhXSA88ePlxQtGxPNA==
@@ -436,12 +490,12 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-file-upload-item-v1@^2.0.1":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-file-upload-item-v1/-/core-components-file-upload-item-v1-2.0.3.tgz#7bb19526340d6e79035f65dae661c450e01238c0"
-  integrity sha512-0HhuYAwnUXvLCoyl8f5EGNn8mNyYDzNxhnIwSidCJVnqlxnkNfcDUUMLK0u2nB9ulaPcVGwRWW0CWZG+0+U8Ag==
+"@alfalab/core-components-file-upload-item-v1@^2.0.3":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-file-upload-item-v1/-/core-components-file-upload-item-v1-2.0.4.tgz#35b30048f7564fa31eb6113d22f9abfb00dbe58c"
+  integrity sha512-IGY3DSWvLuDu3Xl4qEQtBi1cET1X8jT6Up0qKkhNJPhzXHkBOz+V3vPy2q97XariTifsLkjbLDeyBC+lzoCWEQ==
   dependencies:
-    "@alfalab/core-components-icon-button" "^7.0.2"
+    "@alfalab/core-components-icon-button" "^7.0.3"
     "@alfalab/core-components-link" "^6.1.0"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-spinner" "^5.0.2"
@@ -449,12 +503,12 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-file-upload-item@^7.1.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-file-upload-item/-/core-components-file-upload-item-7.2.0.tgz#d7e612930de4e35a2ef5036b717fa1c03a7fb125"
-  integrity sha512-bLeOl6XD/pzVZ+UBRuVmHxvRj2SnppzGy6iOsQTHeOYfTiLcPlavyre8C0zEnCQngv13Q8cgEAcNDmRHnL51Jg==
+"@alfalab/core-components-file-upload-item@^7.2.0":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-file-upload-item/-/core-components-file-upload-item-7.2.1.tgz#b1e322039ba1f7faae06030829fd992def7713bd"
+  integrity sha512-Bu7c2mnYsA7zGvQc5Fc/BrKmdZJXKvkd98U2TxdkBvyJuWdjnwlmB/1qtX3S+pZu8f/NSrTiBYP41o3V1VXO9Q==
   dependencies:
-    "@alfalab/core-components-icon-button" "^7.0.2"
+    "@alfalab/core-components-icon-button" "^7.0.3"
     "@alfalab/core-components-icon-view" "^4.0.1"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-typography" "^5.0.3"
@@ -463,7 +517,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-filter-tag@^6.0.1":
+"@alfalab/core-components-filter-tag@^6.0.2":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-filter-tag/-/core-components-filter-tag-6.0.2.tgz#1dc6b4df8fdc5b3d8f68ffc5c55497b599ab2388"
   integrity sha512-T9cuN08pFqgC4DixLIkSn5qx5mX10I0Cyd7dqFsFBQ6ycOst1pzO1YZI/KSvSc1T0oHQJJgooYq54z6f6I1xFA==
@@ -474,7 +528,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-form-control@^13.0.1", "@alfalab/core-components-form-control@^13.0.2":
+"@alfalab/core-components-form-control@^13.0.2":
   version "13.0.2"
   resolved "https://registry.npmjs.org/@alfalab/core-components-form-control/-/core-components-form-control-13.0.2.tgz"
   integrity sha512-aZjYYxpEdodfotJNXVlIhJawUZHYMKUNizgm/uxvMrI3cmKOCgXSDnMcVDTMT9JuRfIzuXDI3x//gJYp/OG24w==
@@ -484,18 +538,18 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-gallery@^6.0.4":
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-gallery/-/core-components-gallery-6.0.7.tgz#b0afe78a752c8d09838bcb558b8734ba09821c56"
-  integrity sha512-r4ZzOglgZSwuRw8xIdphqQXrlOjdlWEScoCk2e/9U7Ifn6Kd8YHKBt8xwf/8rbapC45H8B1svFs1ZnoCSEt0kg==
+"@alfalab/core-components-gallery@^6.0.7":
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-gallery/-/core-components-gallery-6.0.8.tgz#f3fa631f0e66a9afaa64edd85cdf6e3cb76a9afc"
+  integrity sha512-mtNkgHeaDdU/J6QPdxFAz+l/GuDK/AlIXbqDahsmHeXHGc44nh2HB7bB3ZnAzb/Vv7DB9hHD8fXnAsbTjmXaHw==
   dependencies:
     "@alfalab/core-components-base-modal" "^6.0.2"
     "@alfalab/core-components-button" "^12.0.2"
-    "@alfalab/core-components-icon-button" "^7.0.2"
+    "@alfalab/core-components-icon-button" "^7.0.3"
     "@alfalab/core-components-icon-view" "^4.0.1"
     "@alfalab/core-components-mq" "^5.0.2"
     "@alfalab/core-components-spinner" "^5.0.2"
-    "@alfalab/core-components-tooltip" "^8.0.6"
+    "@alfalab/core-components-tooltip" "^8.0.7"
     "@alfalab/core-components-typography" "^5.0.3"
     "@alfalab/hooks" "^1.13.1"
     "@alfalab/icons-glyph" "^2.247.0"
@@ -546,7 +600,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-icon-button@^7.0.1", "@alfalab/core-components-icon-button@^7.0.2":
+"@alfalab/core-components-icon-button@^7.0.2":
   version "7.0.2"
   resolved "https://registry.npmjs.org/@alfalab/core-components-icon-button/-/core-components-icon-button-7.0.2.tgz"
   integrity sha512-8adpyeRKlbHc9ScB9ou4BpJYRQHGG9Xsuk0rovMrvoB7S0yYrgz9dQPDs2CISy/IBAvMPR+/iG8nBu9X3lFVeg==
@@ -555,7 +609,17 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-icon-view@^4.0.0", "@alfalab/core-components-icon-view@^4.0.1":
+"@alfalab/core-components-icon-button@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-icon-button/-/core-components-icon-button-7.0.3.tgz#baa583d239e125bd8d95b0e4c0f9d1293abf81c9"
+  integrity sha512-7oZwIH0tocfA6KjACBBB9H5CYSNr1FflAuJeDlVTQRwALD1AeCiMd+adCQHJ+bbzPFlMIqSnUaClzbvHDvPqWA==
+  dependencies:
+    "@alfalab/core-components-button" "^12.0.2"
+    "@alfalab/core-components-mq" "^5.0.2"
+    classnames "^2.5.1"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-icon-view@^4.0.1":
   version "4.0.1"
   resolved "https://registry.npmjs.org/@alfalab/core-components-icon-view/-/core-components-icon-view-4.0.1.tgz"
   integrity sha512-D6cRMA3niPNkIViYuoiBKWCyVtRd/Ymtu4GCpWeaKuG/5mS+0VLP/hS900oodwdSponBcrw2S8fQbGSjFrakcw==
@@ -572,7 +636,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-input-autocomplete@^13.0.3", "@alfalab/core-components-input-autocomplete@^13.0.6":
+"@alfalab/core-components-input-autocomplete@^13.0.6":
   version "13.0.6"
   resolved "https://registry.npmjs.org/@alfalab/core-components-input-autocomplete/-/core-components-input-autocomplete-13.0.6.tgz"
   integrity sha512-uv1rUL4ycuQc1D11AzSkV+WMTaSMuDdbAulspAdIPP28rfSxCiotI2QBl4ScWvYhahxMIWv1XNT3jrHfXpJuSQ==
@@ -591,7 +655,26 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-input@^16.0.2", "@alfalab/core-components-input@^16.0.3":
+"@alfalab/core-components-input-autocomplete@^13.0.7":
+  version "13.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-input-autocomplete/-/core-components-input-autocomplete-13.0.7.tgz#f047d79fafc0a0e418aa3e415d3d9e2b23ac2d21"
+  integrity sha512-3H5i/HXEGTaxtCjObQ+qi9zGWMqEIw5nGOg/brWrgbqmRIKW6g9G8TYcG/L3U44jxViQDZhwVICW4sxt36Fx+Q==
+  dependencies:
+    "@alfalab/core-components-form-control" "^13.0.2"
+    "@alfalab/core-components-input" "^16.0.3"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-popover" "^7.1.1"
+    "@alfalab/core-components-select" "^18.2.4"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/core-components-status-badge" "^2.0.1"
+    "@alfalab/hooks" "^1.13.1"
+    "@maskito/core" "^1.7.0"
+    classnames "^2.5.1"
+    lodash "^4.17.21"
+    react-merge-refs "^1.1.0"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-input@^16.0.3":
   version "16.0.3"
   resolved "https://registry.npmjs.org/@alfalab/core-components-input/-/core-components-input-16.0.3.tgz"
   integrity sha512-KRO0GU77KHjHimMVeKTxgRjXY4MPviE5HKmkZfm0ccIoeQ+CHzlkyTHHCtG82IqZWIG92fWHp2XF2EY3C4YeDQ==
@@ -607,15 +690,15 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-international-phone-input@^3.2.0":
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-international-phone-input/-/core-components-international-phone-input-3.2.3.tgz#2130c7852bc6a9faf824ef3a4258b2ae4f2cf5a1"
-  integrity sha512-BYzeHo2vGxvyt4F+1L2CjzmgVBd1gCRcfE0dHeSvmeHXlM/kjpqbQJHA4oA0GxsEdtLMELtuOHmlWaKojbGh8w==
+"@alfalab/core-components-international-phone-input@^3.2.3":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-international-phone-input/-/core-components-international-phone-input-3.2.4.tgz#15550e8b4134034cb7942b6ecbd2b5e3bfa67050"
+  integrity sha512-Yf6ijwSmL3UbLYrULZFruxl+IkGwbMrYb1uVgTo056xliAdkm2zbbRB3zgeLq6sZRG7CiJ163Z73MlKQVwz/YQ==
   dependencies:
     "@alfalab/core-components-input" "^16.0.3"
-    "@alfalab/core-components-input-autocomplete" "^13.0.6"
+    "@alfalab/core-components-input-autocomplete" "^13.0.7"
     "@alfalab/core-components-mq" "^5.0.2"
-    "@alfalab/core-components-select" "^18.2.3"
+    "@alfalab/core-components-select" "^18.2.4"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-types" "^1.0.0"
     "@alfalab/hooks" "^1.13.1"
@@ -626,13 +709,13 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-intl-phone-input@^10.0.3":
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-intl-phone-input/-/core-components-intl-phone-input-10.0.6.tgz#3e4896d47e72e704e16aa797fe502925104a65fa"
-  integrity sha512-/R0DQ65lgOpiyaTaeH55e7V8jTra/mM9eCYFfdgRkzQfrupZEGLZgry0lozCnPWqFxdBRNqotMs6Rk+PQ21zRw==
+"@alfalab/core-components-intl-phone-input@^10.0.6":
+  version "10.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-intl-phone-input/-/core-components-intl-phone-input-10.0.7.tgz#ac991495c083586ad38191113c3f2143f377d48e"
+  integrity sha512-nYUhkfw1kuLj+0W5oO/tf7Jwa2A8ICTDw+4jGlAtIOpUZkwADWeiF2KbayUrl1mlttTd0SR7fy23ivYPjPC53Q==
   dependencies:
-    "@alfalab/core-components-input-autocomplete" "^13.0.6"
-    "@alfalab/core-components-select" "^18.2.3"
+    "@alfalab/core-components-input-autocomplete" "^13.0.7"
+    "@alfalab/core-components-select" "^18.2.4"
     "@alfalab/hooks" "^1.13.1"
     "@alfalab/icons-glyph" "^2.247.0"
     "@alfalab/utils" "^1.18.0"
@@ -649,7 +732,7 @@
     "@alfalab/hooks" "^1.13.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-link@^6.0.0", "@alfalab/core-components-link@^6.1.0":
+"@alfalab/core-components-link@^6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-link/-/core-components-link-6.1.0.tgz#1856e6ab3c9c55ee8314b5c007b13a19326815de"
   integrity sha512-pM9pzRdJPL/iJQff1Wufox8g8kovYZWjJvqHVlj9jjH8eX1uWvcngsnYnCGuHmmgOUUNxAGwVFRQj1lDltMagg==
@@ -659,7 +742,7 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-list-header@^4.0.2":
+"@alfalab/core-components-list-header@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-list-header/-/core-components-list-header-4.0.3.tgz#00c8001b2763c0d182cf5828ffe25e09011b4bf9"
   integrity sha512-NKnXR+2ovUfxvE58x5bcFTnJce/9y2u8nkkXtbV/OWqtmesFj94qCBlYbsP57sn4/x/t0uXn/UF4jWe0cW7Bsw==
@@ -668,7 +751,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-list@^4.0.2", "@alfalab/core-components-list@^4.0.3":
+"@alfalab/core-components-list@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-list/-/core-components-list-4.0.3.tgz#0b1fdd26fe81a51b6f7453e4d50c8a6a419d1929"
   integrity sha512-p8MA+nAg1iEgt1VXaYX7FeBiwaNND7FRG7755VGSzYPu/0iZCVH0TXX/qJXvaedMNxJWuLEeevV1rUj1wiV0uw==
@@ -685,7 +768,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-markdown@^2.1.1":
+"@alfalab/core-components-markdown@^2.1.3":
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-markdown/-/core-components-markdown-2.1.3.tgz#e4db0fc9958d1f1649ece9109f5c852151bfdaa3"
   integrity sha512-RWUPXPLCYG8Bt9ag5lqppyr8kybey5XQNGFxxb/aR7Om8npnYDX4XKC7RYeNbGCDQDQhZTcLMWlQtVQaDL1G4A==
@@ -700,7 +783,7 @@
     react-markdown "6.0.2"
     tslib "^2.4.0"
 
-"@alfalab/core-components-masked-input@^7.0.2", "@alfalab/core-components-masked-input@^7.0.3":
+"@alfalab/core-components-masked-input@^7.0.3":
   version "7.0.3"
   resolved "https://registry.npmjs.org/@alfalab/core-components-masked-input/-/core-components-masked-input-7.0.3.tgz"
   integrity sha512-KtBZusk977RAphwN863hlB4oV5G59LUavwCTY2zWpmK1XvqohSLB27t+MkADKt96bPgND1bZQ/lP4AZ56Wpvng==
@@ -711,7 +794,7 @@
     text-mask-core "^5.1.2"
     tslib "^2.4.0"
 
-"@alfalab/core-components-modal@^10.0.2", "@alfalab/core-components-modal@^10.0.4":
+"@alfalab/core-components-modal@^10.0.4":
   version "10.0.4"
   resolved "https://registry.npmjs.org/@alfalab/core-components-modal/-/core-components-modal-10.0.4.tgz"
   integrity sha512-qiUcv8066YDqKAAU+USOLvlpoptM3RGIqgiPN4kWzW6dFcRIteiymOXNGUfWBpojMykZ7ctNr49OOTrIAtg0JA==
@@ -724,7 +807,20 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-mq@^5.0.1", "@alfalab/core-components-mq@^5.0.2":
+"@alfalab/core-components-modal@^10.0.5":
+  version "10.0.5"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-modal/-/core-components-modal-10.0.5.tgz#0951f0ad11609bf26555c9e6fde829e9055f5387"
+  integrity sha512-ZO3nv57x1jOc2DQk5C7pXcul4Y8+910pkAgvRo7OrTEcI7J065yI1M31pWjg8NL48hh9QwL3COtFkosFxN9Ngg==
+  dependencies:
+    "@alfalab/core-components-base-modal" "^6.0.2"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-navigation-bar-private" "^1.1.2"
+    "@alfalab/core-components-shared" "^1.1.1"
+    classnames "^2.5.1"
+    react-merge-refs "^1.1.0"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-mq@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-mq/-/core-components-mq-5.0.2.tgz#797aeb7d549c3ca3674cd9064cb8823b8691a7de"
   integrity sha512-0Me/q1ViqbwC5zmZ3rqaNvE6zTar1bsYj1hM8QxS8wKXqDcMxYYkkpTr1y86wjHTOvGkd6jJMkPOHZulxTr/cw==
@@ -733,7 +829,7 @@
     "@alfalab/hooks" "^1.13.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-navigation-bar-private@^1.0.2", "@alfalab/core-components-navigation-bar-private@^1.1.1":
+"@alfalab/core-components-navigation-bar-private@^1.1.1":
   version "1.1.1"
   resolved "https://registry.npmjs.org/@alfalab/core-components-navigation-bar-private/-/core-components-navigation-bar-private-1.1.1.tgz"
   integrity sha512-u6EsCAtAM1iOH1+GGNoTjgnrEIL/Ukpt12CUveop4/xbb5jXVn9pdmYxlti/Bz7sQg5ONh/+/SAFz5a/qcbG0g==
@@ -748,7 +844,22 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-navigation-bar@^2.0.2":
+"@alfalab/core-components-navigation-bar-private@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-navigation-bar-private/-/core-components-navigation-bar-private-1.1.2.tgz#b99dbdacf7c0f386939475f4f74bda241a8114ba"
+  integrity sha512-/KUX6PTwnQU9XtZeRNxWWsmrnmBQJB/A+P8XgQSKqFszfXUIU7dEb//zMOLx4G6T4S+f1dX1iMlY2gdBtcBsqA==
+  dependencies:
+    "@alfalab/core-components-button" "^12.0.2"
+    "@alfalab/core-components-icon-button" "^7.0.3"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/core-components-typography" "^5.0.3"
+    "@alfalab/hooks" "^1.13.1"
+    "@alfalab/icons-glyph" "^2.247.0"
+    classnames "^2.5.1"
+    react-merge-refs "^1.1.0"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-navigation-bar@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-navigation-bar/-/core-components-navigation-bar-2.0.3.tgz#275c25226363d9044fc604edc925077514e5dd92"
   integrity sha512-aOfY2k63yfrwHhbUWkRE6Fq4KS2/6hk0ReMf8OZ/YL+gTrn0CtJiHGEN28/2qRJIQpJvwInXAYaMCIq10FK4kg==
@@ -760,19 +871,19 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-notification-manager@^6.0.1":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-notification-manager/-/core-components-notification-manager-6.0.2.tgz#2ad62ed61d717627379d7b402b927a2fd3c610ec"
-  integrity sha512-IrtMuzDfqrOai0zheYnpWDCmp2Y4gsgkmgAcB7PlhYhK1GnGGO9EdVsQ9sT6Jr5NvL5MWhUBE8dO/NC0Q1BQsQ==
+"@alfalab/core-components-notification-manager@^6.0.2":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-notification-manager/-/core-components-notification-manager-6.0.3.tgz#e1a205c4e4de817a91b9ab62271ab7f7b76fdfef"
+  integrity sha512-hy9YG0t84dO8c1zdIWmU8k2Fdho4HH5z3JaKesFVFd5uZp0/QdLh07jvJoT16jhjuelsclEsQZKUCxZiKaHu5Q==
   dependencies:
-    "@alfalab/core-components-notification" "^8.0.2"
+    "@alfalab/core-components-notification" "^8.0.3"
     "@alfalab/core-components-portal" "^4.0.2"
     "@alfalab/core-components-stack" "^6.0.0"
     classnames "^2.5.1"
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-notification@^8.0.1", "@alfalab/core-components-notification@^8.0.2":
+"@alfalab/core-components-notification@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-notification/-/core-components-notification-8.0.2.tgz#9b59ba5e263f1eb6e877641fb1dec1ab4cf35708"
   integrity sha512-T8A4Z1AOEezELt1k8svKHZhySe1Lh7m8tjPlg0f2mBAxyfHij65r/faR29KUfs1CXJRxicv74SwCFCTQa+35Fw==
@@ -787,7 +898,22 @@
     react-swipeable "^7.0.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-number-input@^3.0.2", "@alfalab/core-components-number-input@^3.0.3":
+"@alfalab/core-components-notification@^8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-notification/-/core-components-notification-8.0.3.tgz#26750f7391c8ac37c054251f1886ffeb25dae20c"
+  integrity sha512-xnxKn8cp6kcS3Myygh925OCO7eeOmfXCcZDp3aF/RKxzGG2bWiw+fsmLsz49J9TtSOi0rcDX7vCb7bd5MDheJw==
+  dependencies:
+    "@alfalab/core-components-portal" "^4.0.2"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/core-components-stack" "^6.0.0"
+    "@alfalab/core-components-toast-plate" "^8.0.3"
+    classnames "^2.5.1"
+    element-closest "^3.0.2"
+    react-merge-refs "^1.1.0"
+    react-swipeable "^7.0.0"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-number-input@^3.0.3":
   version "3.0.3"
   resolved "https://registry.npmjs.org/@alfalab/core-components-number-input/-/core-components-number-input-3.0.3.tgz"
   integrity sha512-2GBDHCqVdxA8o97EVi3RVG5OeRQX5+zR0ewBI3YDReZWJO+spvZJOQyQJgCxg0KnifPHQKZEJ4L012rRnI02lA==
@@ -803,7 +929,23 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-page-indicator@^2.0.1":
+"@alfalab/core-components-number-input@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-number-input/-/core-components-number-input-3.0.4.tgz#6fb85b329ff6bf93cddad8ead3e2a2fe93de5a64"
+  integrity sha512-xHkKUbS0QereRiS5b7Rew5eTpy/+dis1S08gYg2OapG0Lhnw75jfrOLk5elinaekCu4BnFdXaWnr9rtvmahDPQ==
+  dependencies:
+    "@alfalab/core-components-icon-button" "^7.0.3"
+    "@alfalab/core-components-input" "^16.0.3"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/icons-glyph" "^2.247.0"
+    "@maskito/core" "^1.7.0"
+    "@maskito/react" "^1.7.0"
+    classnames "^2.5.1"
+    react-merge-refs "^1.1.0"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-page-indicator@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-page-indicator/-/core-components-page-indicator-2.0.2.tgz#af476aad96960bdd76e6f1ad39121a89f997ace2"
   integrity sha512-oqnTC6UacTI/91GKzsB5/KI6lti505JFttxnRp5emK96Oh2Ren6gsqoQikl+QQnVSZO2uF99ZJ85Mfqe4LK4+g==
@@ -814,7 +956,7 @@
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-pagination@^3.0.1", "@alfalab/core-components-pagination@^3.0.3":
+"@alfalab/core-components-pagination@^3.0.3":
   version "3.0.3"
   resolved "https://registry.npmjs.org/@alfalab/core-components-pagination/-/core-components-pagination-3.0.3.tgz"
   integrity sha512-WYuL3dQtwdxXoGis9pthPydlBHDZyqO3X/lN0jF+5ZiBgMZmEwQt8mF6zFxn2/h3wetZV8QsEEiHQ8F9PXhkxg==
@@ -824,7 +966,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-pass-code-v1@^2.0.1":
+"@alfalab/core-components-pass-code-v1@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-pass-code-v1/-/core-components-pass-code-v1-2.0.2.tgz#0523e07c2e24c60af03d804fdd1f698f04bc6a41"
   integrity sha512-PHrDfPHJvnpVLXXOCf7U8Bv1NCylzTOvjEmqmRef9FqJ40r4uWTalytC2dUubH7M3SZR83UqU/jcUnDDSNaq7A==
@@ -837,7 +979,7 @@
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-pass-code@^3.0.1":
+"@alfalab/core-components-pass-code@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-pass-code/-/core-components-pass-code-3.0.2.tgz#9fc0218a2c5c4d85e62438f7d6c5a6cfa71e297e"
   integrity sha512-x4mygKggfFcQ3o7MU23zDJ1bjNZNfNVax8t+mLNaBTlzBvvIm/fGeu4ZH4WUpEdoitqx2nN1eLjJ3djouGrPQg==
@@ -851,18 +993,18 @@
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-password-input@^6.0.2":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-password-input/-/core-components-password-input-6.0.3.tgz#ffa8bcafb12c77398c8d3720e3f3ef2fda2e68b0"
-  integrity sha512-uB5EAkAPpdnB5UCyfQYSgs6lKFLGaJ5bzSAbzM9+9axyX9XRT02Cyavrt62PUCtiiGpSR7ZBv2GyroISZobFzw==
+"@alfalab/core-components-password-input@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-password-input/-/core-components-password-input-6.0.4.tgz#a4e4f7843976d91ddb0d2a6526dc0ab86d3f47ee"
+  integrity sha512-Mkn04uDoqF3Im/bkC9CydmZw31Vh33MXXeEyVOZ/saSv13EfnG62IALe2s8FCG+4mtPz+lVcCTg49/lvNXb8FA==
   dependencies:
-    "@alfalab/core-components-icon-button" "^7.0.2"
+    "@alfalab/core-components-icon-button" "^7.0.3"
     "@alfalab/core-components-input" "^16.0.3"
     "@alfalab/icons-glyph" "^2.247.0"
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-pattern-lock-v1@^2.0.1":
+"@alfalab/core-components-pattern-lock-v1@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-pattern-lock-v1/-/core-components-pattern-lock-v1-2.0.2.tgz#754db6b6762606daaee6975aed3489f539a18e03"
   integrity sha512-XBPtl7gtn2Y/QO1wP/H6zvh9VSJAKuBAnqpGmpA2ibUQ5AdGLUcuUUuKii1mSsPGKZhomNXbLZ3X/JOYfeR7TA==
@@ -874,7 +1016,7 @@
     react-canvas-pattern-lock "^2.0.6"
     tslib "^2.4.0"
 
-"@alfalab/core-components-pattern-lock@^3.0.1":
+"@alfalab/core-components-pattern-lock@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-pattern-lock/-/core-components-pattern-lock-3.0.2.tgz#35021d9e7b4370c54616e42895d9b58999461761"
   integrity sha512-lkI2k22+DmsioJDHxUPhQMARrpV8P7ED8WspRZgCJoVLOLWyi0sMDjAFpgcJ1jrwF8s477Gp3fsc45xquWacMQ==
@@ -886,7 +1028,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-phone-input@^8.0.2":
+"@alfalab/core-components-phone-input@^8.0.3":
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-phone-input/-/core-components-phone-input-8.0.3.tgz#0b31cd85bb1266d0cb0eb4a88d4129c4a144de04"
   integrity sha512-2Cy3zYTRnCIYbbX7CcWzqNXRMTmExFZsUtiMOJ/sXUOkHNCezCIhCP42iNBjWSpB2qvD3tJP5ffIOefjHVwgag==
@@ -896,7 +1038,7 @@
     text-mask-core "^5.1.2"
     tslib "^2.4.0"
 
-"@alfalab/core-components-picker-button@^12.0.3", "@alfalab/core-components-picker-button@^12.0.6":
+"@alfalab/core-components-picker-button@^12.0.6":
   version "12.0.6"
   resolved "https://registry.npmjs.org/@alfalab/core-components-picker-button/-/core-components-picker-button-12.0.6.tgz"
   integrity sha512-xHx/y/6BBt5Ydr5TBP/OJWcnzjkSPJb5IYuHRmfjLlg7zBRK33W2pBCQcCXo2NdxAnr4smj3xnn9ZojJQLASxQ==
@@ -909,7 +1051,20 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-plate@^8.1.0", "@alfalab/core-components-plate@^8.1.1":
+"@alfalab/core-components-picker-button@^12.0.7":
+  version "12.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-picker-button/-/core-components-picker-button-12.0.7.tgz#eccf9ba1cd1df7787ed7a77c0ca8c6c880296d9f"
+  integrity sha512-IdIUVKcg/0+WRWaHDRY4P5EcjSKV4uqG8X6+RE/dvuLgtH/2LxqlZ8OnitPt3grHPoUnSJHmIgsVT3CPuglwpA==
+  dependencies:
+    "@alfalab/core-components-button" "^12.0.2"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-popover" "^7.1.1"
+    "@alfalab/core-components-select" "^18.2.4"
+    "@alfalab/icons-glyph" "^2.247.0"
+    classnames "^2.5.1"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-plate@^8.1.1":
   version "8.1.1"
   resolved "https://registry.npmjs.org/@alfalab/core-components-plate/-/core-components-plate-8.1.1.tgz"
   integrity sha512-cx74Y5L7bQWfoSVQy6EFqJ6h0tZmbY9d/1NYU8CweLv4gSBJMvlBoaHDH+Y/LZH0kpHerAgYzKIA/C0VS2Ry/w==
@@ -924,7 +1079,22 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-popover@^7.1.0", "@alfalab/core-components-popover@^7.1.1":
+"@alfalab/core-components-plate@^8.1.2":
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-plate/-/core-components-plate-8.1.2.tgz#91c7f4f3c24241278f29f7c848a845dacdc147b9"
+  integrity sha512-CRqXb2P+lvpIoWC2funKmCOkLEbXPuH+rFMao41qLKLKoQCWPZS5ps9OBOK6qHrcC4gDbHxtavZmjFpzVHk/dg==
+  dependencies:
+    "@alfalab/core-components-button" "^12.0.2"
+    "@alfalab/core-components-icon-button" "^7.0.3"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/hooks" "^1.13.1"
+    "@alfalab/icons-glyph" "^2.247.0"
+    classnames "^2.5.1"
+    react-merge-refs "^1.1.0"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-popover@^7.1.1":
   version "7.1.1"
   resolved "https://registry.npmjs.org/@alfalab/core-components-popover/-/core-components-popover-7.1.1.tgz"
   integrity sha512-JkxyDsA6vzfBg5fRYCBl2GenKCmtgBigAdg9B1Yl5sBo5cL0AU5Qy77gqpWFLb9vsj64K31MXwLqLDEk1dNJfA==
@@ -943,14 +1113,14 @@
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-popup-sheet@^2.0.4":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-popup-sheet/-/core-components-popup-sheet-2.0.6.tgz#d3a6a66158e33d7652b83526ff487375ed0a85b4"
-  integrity sha512-5o6rjb7MKvCY1Wj3eIGdZKqfXYPxjDkElFD+x8OyPey2waNc4svpkIMy6eDV4NBE9/b9qeG48dHFyqfEflL+vw==
+"@alfalab/core-components-popup-sheet@^2.0.6":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-popup-sheet/-/core-components-popup-sheet-2.0.7.tgz#73c2181ce438efef53ff129d7ea4016b654dc4f0"
+  integrity sha512-OCTBWKw3RtK6A4R7l/Lifsl/qDG6RnnSNrP6sa1URZqShAX7kIQe/0Ou+3f4CFuYgwrBodpDbeu5y61+Ajwaqg==
   dependencies:
     "@alfalab/core-components-backdrop" "^4.0.0"
     "@alfalab/core-components-base-modal" "^6.0.2"
-    "@alfalab/core-components-navigation-bar-private" "^1.1.1"
+    "@alfalab/core-components-navigation-bar-private" "^1.1.2"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-types" "^1.0.0"
     classnames "^2.5.1"
@@ -958,7 +1128,7 @@
     react-swipeable "^7.0.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-portal@^4.0.1", "@alfalab/core-components-portal@^4.0.2":
+"@alfalab/core-components-portal@^4.0.2":
   version "4.0.2"
   resolved "https://registry.npmjs.org/@alfalab/core-components-portal/-/core-components-portal-4.0.2.tgz"
   integrity sha512-3XRtNigohbxzhGNKPvspR2Z1F4kW8X5WqJd6dnS6MaMvNQ76qctrVivzVdQ2XQfUcSwpKaNGg8sThI6X+JFwnA==
@@ -966,7 +1136,7 @@
     "@alfalab/core-components-shared" "^1.1.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-product-cover@^2.0.2":
+"@alfalab/core-components-product-cover@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-product-cover/-/core-components-product-cover-2.0.3.tgz#f3d557b11360c834fe6072e58fc014eea2608130"
   integrity sha512-fl8nH8ceZqnTuW6+Q5TfifKMkXuUyvduvqVDYzmcAZ/PbmNbS9JOX1fOTzzwynBWV9Cd40tA3FJwygzgg1SVwg==
@@ -988,7 +1158,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-pure-cell@^5.0.2":
+"@alfalab/core-components-pure-cell@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-pure-cell/-/core-components-pure-cell-5.0.3.tgz#b4f12db7b36c5a53017cbc645fd9194d49202db5"
   integrity sha512-uYgCXW040rTUN8k90ZEVyXbo2HjyFndT0murENKZZcNHBaEsjftInLcHH9EMa9BORxAR9bwPjgrcdCP2QE+Fcw==
@@ -1004,7 +1174,7 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-radio-group@^5.2.0":
+"@alfalab/core-components-radio-group@^5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-radio-group/-/core-components-radio-group-5.2.1.tgz#090e422375d3eb8aabbfed5da5b3c87e3bf07c7b"
   integrity sha512-eR/YZ+qLeHvGUkxh2EcLQ+5EEpByonw9CbAM8WJGYiAcnSDvsYjNfo7hU6Sqll3fnrOrEC6/Uq4V2hRiBageGw==
@@ -1015,7 +1185,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-radio@^5.0.1":
+"@alfalab/core-components-radio@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-radio/-/core-components-radio-5.0.2.tgz#4e01130b3cd29bcfcaed0c99f2913a675b272635"
   integrity sha512-by0DL0EAN5tA4+dRDKGIoHzKLWTIBf7aJC5M8E9ApfnnvbiY0/7bbVLZ2RCidy14ubRj/2E53PAaOGnBlIjTrw==
@@ -1052,16 +1222,16 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-select-with-tags@^9.0.3":
-  version "9.0.6"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-select-with-tags/-/core-components-select-with-tags-9.0.6.tgz#87f6a796786fc6f1b03cffc28ded0ef360577e4f"
-  integrity sha512-iPiJwTl18w+ywhPuLP0TGtkwY2nW8uJB9ooXuw/xVRFQ10AKW1Ll369BA1ngKKEUlGnqfH2IL389/qMSgEyLBg==
+"@alfalab/core-components-select-with-tags@^9.0.6":
+  version "9.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-select-with-tags/-/core-components-select-with-tags-9.0.7.tgz#2cd52b252159a5e858ac7eec662363e62947d1e0"
+  integrity sha512-9xxkMRvUIRI1QGvU79gy5bNjftyNtdDZ/uI7nzEngnwxmMUjOCNV8UguZaFxnDbImZ1VronnngugGxI3yuAz4g==
   dependencies:
-    "@alfalab/core-components-bottom-sheet" "^7.2.1"
+    "@alfalab/core-components-bottom-sheet" "^7.3.0"
     "@alfalab/core-components-form-control" "^13.0.2"
     "@alfalab/core-components-mq" "^5.0.2"
     "@alfalab/core-components-popover" "^7.1.1"
-    "@alfalab/core-components-select" "^18.2.3"
+    "@alfalab/core-components-select" "^18.2.4"
     "@alfalab/core-components-tag" "^9.0.3"
     "@alfalab/hooks" "^1.13.1"
     "@alfalab/icons-glyph" "^2.247.0"
@@ -1069,7 +1239,7 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-select@^18.2.0", "@alfalab/core-components-select@^18.2.3":
+"@alfalab/core-components-select@^18.2.3":
   version "18.2.3"
   resolved "https://registry.npmjs.org/@alfalab/core-components-select/-/core-components-select-18.2.3.tgz"
   integrity sha512-iX2tgAVRxnpvCpfmYS7mzisEhpMs4XHDffBHdXMwwuhNz6cb0uc2VoHPBtpXY867lhg8D4Lx4FZ3Bm0Ebm7lBA==
@@ -1099,7 +1269,37 @@
     react-virtual "^2.3.2"
     tslib "^2.4.0"
 
-"@alfalab/core-components-shared@^1.1.0", "@alfalab/core-components-shared@^1.1.1":
+"@alfalab/core-components-select@^18.2.4":
+  version "18.2.4"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-select/-/core-components-select-18.2.4.tgz#8c9ef39c0d1aa6a7d8bba602321ddf63b07a4bcc"
+  integrity sha512-1GyoOkE8Pu+/uJyMF5ZpU4lsxKQ5XN+xV3fUubOqTnTmQUOCumozV69ud4cxO7vfBfWRb36b3oYQDPq5foTt0A==
+  dependencies:
+    "@alfalab/core-components-badge" "^6.0.0"
+    "@alfalab/core-components-base-modal" "^6.0.2"
+    "@alfalab/core-components-bottom-sheet" "^7.3.0"
+    "@alfalab/core-components-button" "^12.0.2"
+    "@alfalab/core-components-checkbox" "^5.0.2"
+    "@alfalab/core-components-form-control" "^13.0.2"
+    "@alfalab/core-components-input" "^16.0.3"
+    "@alfalab/core-components-modal" "^10.0.5"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-popover" "^7.1.1"
+    "@alfalab/core-components-scrollbar" "^4.0.0"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/core-components-skeleton" "^6.0.1"
+    "@alfalab/hooks" "^1.13.1"
+    "@alfalab/icons-glyph" "^2.247.0"
+    "@juggle/resize-observer" "^3.3.1"
+    classnames "^2.5.1"
+    compute-scroll-into-view "^3.1.0"
+    downshift "8.4.0"
+    intersection-observer "^0.12.0"
+    react-fast-compare "^3.2.2"
+    react-merge-refs "^1.1.0"
+    react-virtual "^2.3.2"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-shared@^1.1.1":
   version "1.1.1"
   resolved "https://registry.npmjs.org/@alfalab/core-components-shared/-/core-components-shared-1.1.1.tgz"
   integrity sha512-8d/y5yjKqjBmrHxzQl9ZmuLTAfaOKOBJbRNuHZo4hF8N0N3MSGid0LmTy0n6WRP4yf7WnebsskaommlTcgdk/A==
@@ -1110,15 +1310,15 @@
     detect-browser "^5.3.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-side-panel@^6.0.2":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-side-panel/-/core-components-side-panel-6.0.4.tgz#25bbe24cc3b898366ee4afe2ccf4beaecb387e06"
-  integrity sha512-kwoaz+bjYnlFMjiP4uLv8ds6fGjlxBIQpa3SN7EGtebAIh2QM+pTVtMynomjYyQ3j5RfCEsB2IQJ2B32CPPy5Q==
+"@alfalab/core-components-side-panel@^6.0.4":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-side-panel/-/core-components-side-panel-6.0.5.tgz#97831a48c950c7ba9fda1b6525cb22e3978f1f76"
+  integrity sha512-Woyp2ejJztYzxdpwzM57H/CoFufBzGmVU83h4njOVrcFw3rwAtCUPg1iOZBC05txPQL4UBzr3OldffuAkC8ieQ==
   dependencies:
     "@alfalab/core-components-base-modal" "^6.0.2"
     "@alfalab/core-components-drawer" "^6.0.2"
     "@alfalab/core-components-mq" "^5.0.2"
-    "@alfalab/core-components-navigation-bar-private" "^1.1.1"
+    "@alfalab/core-components-navigation-bar-private" "^1.1.2"
     "@alfalab/core-components-shared" "^1.1.1"
     classnames "^2.5.1"
     react-merge-refs "^1.1.0"
@@ -1133,7 +1333,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-slider-input@^10.0.4":
+"@alfalab/core-components-slider-input@^10.1.1":
   version "10.1.1"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-slider-input/-/core-components-slider-input-10.1.1.tgz#7f1eeef2f13b30a5aef182b13aefcd3ac92218cf"
   integrity sha512-CxdifTaF3PxPj/dKwydyv2WytNy7xNlc81O/Zde9fObcBPY+GjD1gpD0j5GMqVYoMcD6KnVaNaBm6RwFLtLyLg==
@@ -1152,7 +1352,7 @@
     nouislider "^15.6.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-sortable-list@^2.0.1":
+"@alfalab/core-components-sortable-list@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-sortable-list/-/core-components-sortable-list-2.0.2.tgz#0cef358081d3c88bb8219448d540669f782e2197"
   integrity sha512-0CPlFLrQDHRQ3fXjDNd0uCMjIkNW6j74GrxkFevCE928VhL9JGqRQUMlKWEcP86bJ7JBvqZZAzBAHcH1evH6gg==
@@ -1174,7 +1374,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-spinner@^5.0.1", "@alfalab/core-components-spinner@^5.0.2":
+"@alfalab/core-components-spinner@^5.0.2":
   version "5.0.2"
   resolved "https://registry.npmjs.org/@alfalab/core-components-spinner/-/core-components-spinner-5.0.2.tgz"
   integrity sha512-SOkQn+Ap2fp+CxY/VQyRbybAFqWRZbALnNbk31Wl56yRpgFUMupnEL0flBQf7sjEMs6JwdppkMAfe7f1aaETGQ==
@@ -1207,7 +1407,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-status@^4.0.0":
+"@alfalab/core-components-status@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-status/-/core-components-status-4.1.0.tgz#0760f3a17425978e0487152bc59e0e3c0bda118f"
   integrity sha512-SC74BZ88jL5Hk+eggZsw+GndjBAdAtEXp76O+bI4WMWq7aL9ZPk5bTXz1FxJtz0KYn0LnggrtwILuv6xJzhWOA==
@@ -1215,7 +1415,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-stepped-progress-bar@^3.0.2":
+"@alfalab/core-components-stepped-progress-bar@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-stepped-progress-bar/-/core-components-stepped-progress-bar-3.1.0.tgz#e724f536cd45a62d8d28d8c6368ce828401f8be9"
   integrity sha512-Glv25FpRfzF5BfJ6tSJ1LXLWr+f/zyy0L8eLIBDngBQc6Kwq91ctc5JrtEfHUvDZQ069Vc6Pgdtu/QYAY2lj0g==
@@ -1224,7 +1424,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-steps@^2.0.1":
+"@alfalab/core-components-steps@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-steps/-/core-components-steps-2.0.2.tgz#38712fd5caea48d16804103d016c8c160d72dc75"
   integrity sha512-S+5owahQPKY5QudZ/WULBS2elk9Qn+0eDyY9bAQ6pKDhhLasc6Xj6tFhbT4PCPy7I/2Peew5Wq/trNNDbHOuLw==
@@ -1236,7 +1436,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-switch@^5.0.1":
+"@alfalab/core-components-switch@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-switch/-/core-components-switch-5.0.2.tgz#d8b94b85d03fa20c300a1d9e9679794e421b20d7"
   integrity sha512-d3vuagLKAR9DoiOmJrNgy1ElvlcJLg4yeOJ6EouSAvFA/8inZ9JINLANMJneUhsTKpj6bBWZJ3NiwfK5TCn23Q==
@@ -1247,7 +1447,7 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-system-message@^3.0.1":
+"@alfalab/core-components-system-message@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-system-message/-/core-components-system-message-3.0.3.tgz#b82fd89e165c8f1a474c7c3bf010697df9cef5e1"
   integrity sha512-CgMzSwR2ZyiFtmhl4xaY1q+K8bAd3M0+Nl41vhndHmxtwC0aGGtd7DxZPEOptDhUDPbvAedqbrvZEGr36Fmbdw==
@@ -1258,7 +1458,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-tab-bar@^3.0.2":
+"@alfalab/core-components-tab-bar@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-tab-bar/-/core-components-tab-bar-3.0.3.tgz#00aa7cd98e6d4d7a2aff3da18a015447eccf60c6"
   integrity sha512-M8+gPPKP/aC3wOzskm/BJAxCFLY1TVXDIuUzulVMwj59ZzU629NFbUW+Ryk/+bZmwBXoauVvSC0gMD2wN2z2lw==
@@ -1269,27 +1469,27 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-table@^3.0.3":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-table/-/core-components-table-3.0.6.tgz#91bbcc9fc58f156f0dc303555724bc212130d9ea"
-  integrity sha512-jeer/mxOLFt8i3Qv9n98XcLkEihaT4+HikqZXIl9PJ6sEQ8GTWRVffYfRR3buqv+tFMUQhoFnMFFoiNWKfSRFg==
+"@alfalab/core-components-table@^3.0.6":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-table/-/core-components-table-3.0.7.tgz#158a2dd4a317a58d9d417a3dee10d8680822a5e7"
+  integrity sha512-hcD6YYJLcYjovs/jntkKvVYq1E4KX2k5iIQguM+i6hX7bzpxSZuSwxNT9NuBYRQyzABh+fYI5nCgzKMdhvISNA==
   dependencies:
     "@alfalab/core-components-button" "^12.0.2"
     "@alfalab/core-components-pagination" "^3.0.3"
-    "@alfalab/core-components-select" "^18.2.3"
+    "@alfalab/core-components-select" "^18.2.4"
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-tabs@^9.2.0":
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-tabs/-/core-components-tabs-9.2.3.tgz#349f1a88cd4d1861b94332015c65b19d1698d639"
-  integrity sha512-6OK6d/y/0uIpTUUo5qpp4lKhe0bgr7Ibq8NdkeeJAhCkvfVjApWWuMEKrK0oJZXJKGOXT2lCl8ySRZnYAtNTdw==
+"@alfalab/core-components-tabs@^9.2.3":
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-tabs/-/core-components-tabs-9.2.4.tgz#8cae134c083267d9f3fc681f626f1da784bdee7e"
+  integrity sha512-iQNviIrtdjZg+pSRRAqVlCEkmKgkAuVMjJEY3bbJL+CiXhOp8ambvlgHZ8EL91fjoSKjRApAAuCvmTY/eFLgEg==
   dependencies:
     "@alfalab/core-components-badge" "^6.0.0"
-    "@alfalab/core-components-icon-button" "^7.0.2"
+    "@alfalab/core-components-icon-button" "^7.0.3"
     "@alfalab/core-components-keyboard-focusable" "^5.0.0"
     "@alfalab/core-components-mq" "^5.0.2"
-    "@alfalab/core-components-picker-button" "^12.0.6"
+    "@alfalab/core-components-picker-button" "^12.0.7"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-skeleton" "^6.0.1"
     "@alfalab/core-components-tag" "^9.0.3"
@@ -1302,7 +1502,7 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-tag@^9.0.1", "@alfalab/core-components-tag@^9.0.3":
+"@alfalab/core-components-tag@^9.0.3":
   version "9.0.3"
   resolved "https://registry.npmjs.org/@alfalab/core-components-tag/-/core-components-tag-9.0.3.tgz"
   integrity sha512-HaA2/urURVHK/SpNd6GeksQ3ZGgd8yOhCSScRf6eWXwc15vVHP/7gg1JmAEkra4Ps7u69ABwvB9jUbTsfh8czQ==
@@ -1322,7 +1522,7 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-textarea@^9.0.1":
+"@alfalab/core-components-textarea@^9.0.2":
   version "9.0.2"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-textarea/-/core-components-textarea-9.0.2.tgz#99b040396406f0117aab50daeb27b7e9ea7b7e67"
   integrity sha512-4zzsKI6QcXgTrjmeU7tlTHHSk3esmXOLDy5iPhY2OZHBj6vxd871cmwpSG+t6TC2oRTQtqdyMKx7LqSZnzj4yg==
@@ -1336,12 +1536,12 @@
     react-textarea-autosize "^8.3.4"
     tslib "^2.4.0"
 
-"@alfalab/core-components-themes@^14.1.2":
+"@alfalab/core-components-themes@^14.1.3":
   version "14.1.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-themes/-/core-components-themes-14.1.3.tgz#aee55aa5ca7a692409611701b8542ae8ecadb347"
   integrity sha512-/gszClmlr0QC88eUEFW5SPGVq6jZxjCOsITriqoinLGOdGHc7BoDIqEOUhUff5QkiBIFGaEljLrESSSkvvHn/w==
 
-"@alfalab/core-components-time-input@^3.0.2":
+"@alfalab/core-components-time-input@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-time-input/-/core-components-time-input-3.0.3.tgz#6cee24b3aab7d050596d840e70b6e35621b8e203"
   integrity sha512-vxjYRHRiVoGvrySIKlevwIKf17Xs5WdMTqy21DRqTzY0jJAQLqaRADqWH2KsV1DMUXh9RGmN2yc756mKFZY6FA==
@@ -1349,7 +1549,7 @@
     "@alfalab/core-components-input" "^16.0.3"
     tslib "^2.4.0"
 
-"@alfalab/core-components-toast-plate@^8.0.1", "@alfalab/core-components-toast-plate@^8.0.2":
+"@alfalab/core-components-toast-plate@^8.0.2":
   version "8.0.2"
   resolved "https://registry.npmjs.org/@alfalab/core-components-toast-plate/-/core-components-toast-plate-8.0.2.tgz"
   integrity sha512-U4zlf9eHTbvOkCgsLdpD1AEjPYpwZtdlUPZvNzhZhQrCNWOmbUm2oVSnIcpsqGXndkrgo+U51DE8aJD4e0it9Q==
@@ -1362,24 +1562,37 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-toast@^7.0.1":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-toast/-/core-components-toast-7.0.2.tgz#a2d3f76e2c731331fa3ece47b323a77e2fa99915"
-  integrity sha512-kkSxY4rNj6yvqi98VYL9qRJDa2lIZSErNTkoDGt3CN6qUMXlN8MBetEu6sk5ULA1EUi1KUE3TMVHU2wy84L86g==
+"@alfalab/core-components-toast-plate@^8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-toast-plate/-/core-components-toast-plate-8.0.3.tgz#2b733f0ff8990a6d3b4fee9a494211ddd50f429d"
+  integrity sha512-BnGDhrXi4lkhVF+Dju+DcxLSQXs2/XOnz9w9ywqgUy5uuT8skh8am+JqYnUUXM8MUg7ovTrEzaF3SSLIMm2Y7Q==
+  dependencies:
+    "@alfalab/core-components-icon-button" "^7.0.3"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/core-components-status-badge" "^2.0.1"
+    "@alfalab/icons-glyph" "^2.247.0"
+    classnames "^2.5.1"
+    tslib "^2.4.0"
+
+"@alfalab/core-components-toast@^7.0.2":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-toast/-/core-components-toast-7.0.3.tgz#c29df85bd19fe2c4748f9e08e5fa7102fd30f0c3"
+  integrity sha512-22UOMRv9b5jDVGxS3RaF9JRoXJJa/IgJeOYUlGAxs8aeFLlLi85Xj3REHFx2gEzum0a56Xu4EDZWoEbMxGfCTw==
   dependencies:
     "@alfalab/core-components-mq" "^5.0.2"
     "@alfalab/core-components-popover" "^7.1.1"
     "@alfalab/core-components-portal" "^4.0.2"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-stack" "^6.0.0"
-    "@alfalab/core-components-toast-plate" "^8.0.2"
+    "@alfalab/core-components-toast-plate" "^8.0.3"
     "@alfalab/hooks" "^1.13.1"
     classnames "^2.5.1"
     react-merge-refs "^1.1.0"
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-tooltip@^8.0.3", "@alfalab/core-components-tooltip@^8.0.6":
+"@alfalab/core-components-tooltip@^8.0.6":
   version "8.0.6"
   resolved "https://registry.npmjs.org/@alfalab/core-components-tooltip/-/core-components-tooltip-8.0.6.tgz"
   integrity sha512-O6tk6/hatOlew0mnL71+REN8A+KlhtBWzBViwtZtdUZdEWC7nICHYmy/wvzCxoFJK0zUcPO9ewo8DvpGxY/kQw==
@@ -1392,12 +1605,25 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
+"@alfalab/core-components-tooltip@^8.0.7":
+  version "8.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-tooltip/-/core-components-tooltip-8.0.7.tgz#847cef2bcc128a706e0c715e81645adcc7eed89a"
+  integrity sha512-Q0KomsBaFmoA/eQ9HSUW0co7IYlxg5i2Nrs3dZD80ryiNzk8r4AUj4oKvaeZr+GVYP2eeXv7O0HBgkq7rAPypg==
+  dependencies:
+    "@alfalab/core-components-bottom-sheet" "^7.3.0"
+    "@alfalab/core-components-button" "^12.0.2"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-popover" "^7.1.1"
+    classnames "^2.5.1"
+    react-merge-refs "^1.1.0"
+    tslib "^2.4.0"
+
 "@alfalab/core-components-types@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@alfalab/core-components-types/-/core-components-types-1.0.0.tgz"
   integrity sha512-/f8l7YKYa5p9BX/uOx3AmpZJ/zzMbgQlaHR2L0P1BJxeqZ8ROfFNV7jNPFdCg2vIt8wDqbUhqdyfHhWCB8Hliw==
 
-"@alfalab/core-components-typography@^5.0.2", "@alfalab/core-components-typography@^5.0.3":
+"@alfalab/core-components-typography@^5.0.3":
   version "5.0.3"
   resolved "https://registry.npmjs.org/@alfalab/core-components-typography/-/core-components-typography-5.0.3.tgz"
   integrity sha512-gJWSuhhUpOsG07CdySRhzeq6M+GoBnYnLKre+Q3DGTGWel8yqR4HxN5/GwoSPjV7uEs9j81Gzmop1i2T0oRUug==
@@ -1418,12 +1644,12 @@
     classnames "^2.5.1"
     tslib "^2.4.0"
 
-"@alfalab/core-components-universal-date-input@^3.0.3":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-universal-date-input/-/core-components-universal-date-input-3.0.5.tgz#93ef5543afb65a612420075480b2c89a32e487de"
-  integrity sha512-WIuuyJC+xo0cu20G2OuxPseKrM26QGO1Q6WSOUzArCHSbYPcKeYgvCdNCyseq7i+CneKftuLkYVp1QVpERfBog==
+"@alfalab/core-components-universal-date-input@^3.0.5":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-universal-date-input/-/core-components-universal-date-input-3.0.6.tgz#8cf5cf1db782cb62e344740d80b4a448dc6de453"
+  integrity sha512-JaJ6UD0URTN9uCRGcIszsCKxxQSl/OeKVQPATkvtt0zO9oKAhtk4rSiF1RcuscCFCSHIhRqVU3tCtPFNhHmx0Q==
   dependencies:
-    "@alfalab/core-components-calendar" "^8.0.4"
+    "@alfalab/core-components-calendar" "^8.0.5"
     "@alfalab/core-components-input" "^16.0.3"
     "@alfalab/core-components-mq" "^5.0.2"
     "@alfalab/core-components-popover" "^7.1.1"
@@ -1436,16 +1662,16 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components-universal-modal@^2.0.4":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components-universal-modal/-/core-components-universal-modal-2.0.6.tgz#e728a93735923c4276c0a136a035aa2a5aae7fd9"
-  integrity sha512-TOaPkqpvhEsUtumsGaD53WINN+pKP6nRVw3zjh38TGvtY2j4444iiwK3lCcrwzXrZzq64Fna8vZLHQVcwQ4efA==
+"@alfalab/core-components-universal-modal@^2.0.6":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components-universal-modal/-/core-components-universal-modal-2.0.7.tgz#b4d1a181d9ec543be1f0b3803876ec535311a72a"
+  integrity sha512-q1ZFNHYW8Oi7K9BNsZjfUP635RI7ciOUWx5AvuaFq5oTBy2jKp5mnv33saLrNKr7B0VgodLyhsuIS/D7wImaOw==
   dependencies:
     "@alfalab/core-components-backdrop" "^4.0.0"
     "@alfalab/core-components-base-modal" "^6.0.2"
     "@alfalab/core-components-button" "^12.0.2"
     "@alfalab/core-components-mq" "^5.0.2"
-    "@alfalab/core-components-navigation-bar-private" "^1.1.1"
+    "@alfalab/core-components-navigation-bar-private" "^1.1.2"
     "@alfalab/core-components-scrollbar" "^4.0.0"
     "@alfalab/core-components-shared" "^1.1.1"
     "@alfalab/core-components-typography" "^5.0.3"
@@ -1456,12 +1682,12 @@
     react-transition-group "^4.4.5"
     tslib "^2.4.0"
 
-"@alfalab/core-components-vars@^10.1.0":
+"@alfalab/core-components-vars@^10.2.0":
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-vars/-/core-components-vars-10.2.0.tgz#e4ac429058156feea5de58d17ffec9b6e73fb1ea"
   integrity sha512-pflfZ1heRFy+esB/LUTACPy8LZn9HXh9MLTo0uWARzQIK3sRZesa07w6P9qeR+/MkQuOb6VgryiQGyrkTUv5fw==
 
-"@alfalab/core-components-with-suffix@^5.0.2", "@alfalab/core-components-with-suffix@^5.0.3":
+"@alfalab/core-components-with-suffix@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@alfalab/core-components-with-suffix/-/core-components-with-suffix-5.0.3.tgz#b6a15a60ef4f359989c59b6d425dcc0573bc703d"
   integrity sha512-WNYRxwAcwNZAi8pLOvb+AWJSBbbho/QnwqlcNJsxGlVtgSNWR2LkMjvdRkOwQQYGa/w9ZoOVRi2odE8m1Q4Q6w==
@@ -1472,132 +1698,132 @@
     react-merge-refs "^1.1.0"
     tslib "^2.4.0"
 
-"@alfalab/core-components@49.7.0":
-  version "49.7.0"
-  resolved "https://registry.yarnpkg.com/@alfalab/core-components/-/core-components-49.7.0.tgz#f9ef9531733c78cd4de4bf3ed5c4f0532d382a5c"
-  integrity sha512-25DdfJFtDeB5sxaFIYzk8FiX/2lccFsUKMjg5J3FB4EGOjtkO2c7QyLAYC0jQ8gRS3tjz0x6yNR7yk4YeHMgaA==
+"@alfalab/core-components@49.10.0":
+  version "49.10.0"
+  resolved "https://registry.yarnpkg.com/@alfalab/core-components/-/core-components-49.10.0.tgz#9fc4d4c67a86303c376d1c76d429dace292b7cf6"
+  integrity sha512-tRmTbccG41Pw/rhlMh6B+10nC+o58AT/2BAMMdCCK5T3g/4bMYbciXt4i674WfTViSAb6yjeFnpTNBsHXSzkZQ==
   dependencies:
-    "@alfalab/core-components-accordion" "^2.0.2"
-    "@alfalab/core-components-action-button" "^2.0.1"
-    "@alfalab/core-components-alert" "^5.0.2"
+    "@alfalab/core-components-accordion" "^2.0.3"
+    "@alfalab/core-components-action-button" "^2.0.2"
+    "@alfalab/core-components-alert" "^5.0.3"
     "@alfalab/core-components-amount" "^4.0.0"
-    "@alfalab/core-components-amount-input" "^8.1.2"
-    "@alfalab/core-components-attach" "^7.0.1"
+    "@alfalab/core-components-amount-input" "^8.1.3"
+    "@alfalab/core-components-attach" "^7.0.2"
     "@alfalab/core-components-backdrop" "^4.0.0"
     "@alfalab/core-components-badge" "^6.0.0"
-    "@alfalab/core-components-bank-card" "^6.0.2"
-    "@alfalab/core-components-base-modal" "^6.0.1"
-    "@alfalab/core-components-bottom-sheet" "^7.0.2"
-    "@alfalab/core-components-button" "^12.0.1"
-    "@alfalab/core-components-calendar" "^8.0.2"
-    "@alfalab/core-components-calendar-input" "^11.0.3"
-    "@alfalab/core-components-calendar-range" "^8.0.3"
-    "@alfalab/core-components-calendar-with-skeleton" "^6.0.2"
+    "@alfalab/core-components-bank-card" "^6.0.3"
+    "@alfalab/core-components-base-modal" "^6.0.2"
+    "@alfalab/core-components-bottom-sheet" "^7.2.1"
+    "@alfalab/core-components-button" "^12.0.2"
+    "@alfalab/core-components-calendar" "^8.0.4"
+    "@alfalab/core-components-calendar-input" "^11.0.5"
+    "@alfalab/core-components-calendar-range" "^8.0.5"
+    "@alfalab/core-components-calendar-with-skeleton" "^6.0.4"
     "@alfalab/core-components-card-image" "^4.1.0"
-    "@alfalab/core-components-cdn-icon" "^6.0.1"
-    "@alfalab/core-components-chart" "^4.0.2"
-    "@alfalab/core-components-checkbox" "^5.0.1"
-    "@alfalab/core-components-checkbox-group" "^5.1.0"
-    "@alfalab/core-components-circular-progress-bar" "^4.0.2"
-    "@alfalab/core-components-code-input" "^4.0.1"
-    "@alfalab/core-components-collapse" "^5.0.1"
-    "@alfalab/core-components-comment" "^3.0.2"
-    "@alfalab/core-components-confirmation" "^14.1.0"
-    "@alfalab/core-components-confirmation-v1" "^2.0.1"
-    "@alfalab/core-components-custom-button" "^4.0.1"
-    "@alfalab/core-components-custom-picker-button" "^3.0.3"
-    "@alfalab/core-components-date-input" "^5.0.2"
-    "@alfalab/core-components-date-range-input" "^4.0.3"
-    "@alfalab/core-components-date-time-input" "^5.0.3"
+    "@alfalab/core-components-cdn-icon" "^6.0.2"
+    "@alfalab/core-components-chart" "^4.0.3"
+    "@alfalab/core-components-checkbox" "^5.0.2"
+    "@alfalab/core-components-checkbox-group" "^5.1.1"
+    "@alfalab/core-components-circular-progress-bar" "^4.0.3"
+    "@alfalab/core-components-code-input" "^4.1.0"
+    "@alfalab/core-components-collapse" "^5.1.0"
+    "@alfalab/core-components-comment" "^3.0.3"
+    "@alfalab/core-components-confirmation" "^14.2.0"
+    "@alfalab/core-components-confirmation-v1" "^2.0.3"
+    "@alfalab/core-components-custom-button" "^4.0.2"
+    "@alfalab/core-components-custom-picker-button" "^3.0.6"
+    "@alfalab/core-components-date-input" "^5.0.3"
+    "@alfalab/core-components-date-range-input" "^4.0.5"
+    "@alfalab/core-components-date-time-input" "^5.0.5"
     "@alfalab/core-components-divider" "^4.0.0"
-    "@alfalab/core-components-drawer" "^6.0.1"
+    "@alfalab/core-components-drawer" "^6.0.2"
     "@alfalab/core-components-dropzone" "^5.0.1"
-    "@alfalab/core-components-file-upload-item" "^7.1.0"
-    "@alfalab/core-components-file-upload-item-v1" "^2.0.1"
-    "@alfalab/core-components-filter-tag" "^6.0.1"
-    "@alfalab/core-components-form-control" "^13.0.1"
-    "@alfalab/core-components-gallery" "^6.0.4"
+    "@alfalab/core-components-file-upload-item" "^7.2.0"
+    "@alfalab/core-components-file-upload-item-v1" "^2.0.3"
+    "@alfalab/core-components-filter-tag" "^6.0.2"
+    "@alfalab/core-components-form-control" "^13.0.2"
+    "@alfalab/core-components-gallery" "^6.0.7"
     "@alfalab/core-components-gap" "^2.0.0"
     "@alfalab/core-components-generic-wrapper" "^2.0.0"
     "@alfalab/core-components-global-store" "^3.0.0"
     "@alfalab/core-components-grid" "^4.0.0"
     "@alfalab/core-components-hatching-progress-bar" "^3.0.0"
-    "@alfalab/core-components-icon-button" "^7.0.1"
-    "@alfalab/core-components-icon-view" "^4.0.0"
+    "@alfalab/core-components-icon-button" "^7.0.2"
+    "@alfalab/core-components-icon-view" "^4.0.1"
     "@alfalab/core-components-indicator" "^3.0.0"
-    "@alfalab/core-components-input" "^16.0.2"
-    "@alfalab/core-components-input-autocomplete" "^13.0.3"
-    "@alfalab/core-components-international-phone-input" "^3.2.0"
-    "@alfalab/core-components-intl-phone-input" "^10.0.3"
+    "@alfalab/core-components-input" "^16.0.3"
+    "@alfalab/core-components-input-autocomplete" "^13.0.6"
+    "@alfalab/core-components-international-phone-input" "^3.2.3"
+    "@alfalab/core-components-intl-phone-input" "^10.0.6"
     "@alfalab/core-components-keyboard-focusable" "^5.0.0"
-    "@alfalab/core-components-link" "^6.0.0"
-    "@alfalab/core-components-list" "^4.0.2"
-    "@alfalab/core-components-list-header" "^4.0.2"
+    "@alfalab/core-components-link" "^6.1.0"
+    "@alfalab/core-components-list" "^4.0.3"
+    "@alfalab/core-components-list-header" "^4.0.3"
     "@alfalab/core-components-loader" "^4.0.0"
-    "@alfalab/core-components-markdown" "^2.1.1"
-    "@alfalab/core-components-masked-input" "^7.0.2"
-    "@alfalab/core-components-modal" "^10.0.2"
-    "@alfalab/core-components-mq" "^5.0.1"
-    "@alfalab/core-components-navigation-bar" "^2.0.2"
-    "@alfalab/core-components-navigation-bar-private" "^1.0.2"
-    "@alfalab/core-components-notification" "^8.0.1"
-    "@alfalab/core-components-notification-manager" "^6.0.1"
-    "@alfalab/core-components-number-input" "^3.0.2"
-    "@alfalab/core-components-page-indicator" "^2.0.1"
-    "@alfalab/core-components-pagination" "^3.0.1"
-    "@alfalab/core-components-pass-code" "^3.0.1"
-    "@alfalab/core-components-pass-code-v1" "^2.0.1"
-    "@alfalab/core-components-password-input" "^6.0.2"
-    "@alfalab/core-components-pattern-lock" "^3.0.1"
-    "@alfalab/core-components-pattern-lock-v1" "^2.0.1"
-    "@alfalab/core-components-phone-input" "^8.0.2"
-    "@alfalab/core-components-picker-button" "^12.0.3"
-    "@alfalab/core-components-plate" "^8.1.0"
-    "@alfalab/core-components-popover" "^7.1.0"
-    "@alfalab/core-components-popup-sheet" "^2.0.4"
-    "@alfalab/core-components-portal" "^4.0.1"
-    "@alfalab/core-components-product-cover" "^2.0.2"
+    "@alfalab/core-components-markdown" "^2.1.3"
+    "@alfalab/core-components-masked-input" "^7.0.3"
+    "@alfalab/core-components-modal" "^10.0.4"
+    "@alfalab/core-components-mq" "^5.0.2"
+    "@alfalab/core-components-navigation-bar" "^2.0.3"
+    "@alfalab/core-components-navigation-bar-private" "^1.1.1"
+    "@alfalab/core-components-notification" "^8.0.2"
+    "@alfalab/core-components-notification-manager" "^6.0.2"
+    "@alfalab/core-components-number-input" "^3.0.3"
+    "@alfalab/core-components-page-indicator" "^2.0.2"
+    "@alfalab/core-components-pagination" "^3.0.3"
+    "@alfalab/core-components-pass-code" "^3.0.2"
+    "@alfalab/core-components-pass-code-v1" "^2.0.2"
+    "@alfalab/core-components-password-input" "^6.0.3"
+    "@alfalab/core-components-pattern-lock" "^3.0.2"
+    "@alfalab/core-components-pattern-lock-v1" "^2.0.2"
+    "@alfalab/core-components-phone-input" "^8.0.3"
+    "@alfalab/core-components-picker-button" "^12.0.6"
+    "@alfalab/core-components-plate" "^8.1.1"
+    "@alfalab/core-components-popover" "^7.1.1"
+    "@alfalab/core-components-popup-sheet" "^2.0.6"
+    "@alfalab/core-components-portal" "^4.0.2"
+    "@alfalab/core-components-product-cover" "^2.0.3"
     "@alfalab/core-components-progress-bar" "^4.0.0"
-    "@alfalab/core-components-pure-cell" "^5.0.2"
-    "@alfalab/core-components-radio" "^5.0.1"
-    "@alfalab/core-components-radio-group" "^5.2.0"
+    "@alfalab/core-components-pure-cell" "^5.0.3"
+    "@alfalab/core-components-radio" "^5.0.2"
+    "@alfalab/core-components-radio-group" "^5.2.1"
     "@alfalab/core-components-scrollbar" "^4.0.0"
     "@alfalab/core-components-segmented-control" "^2.0.0"
-    "@alfalab/core-components-select" "^18.2.0"
-    "@alfalab/core-components-select-with-tags" "^9.0.3"
-    "@alfalab/core-components-shared" "^1.1.0"
-    "@alfalab/core-components-side-panel" "^6.0.2"
+    "@alfalab/core-components-select" "^18.2.3"
+    "@alfalab/core-components-select-with-tags" "^9.0.6"
+    "@alfalab/core-components-shared" "^1.1.1"
+    "@alfalab/core-components-side-panel" "^6.0.4"
     "@alfalab/core-components-skeleton" "^6.0.1"
     "@alfalab/core-components-slider" "^5.0.0"
-    "@alfalab/core-components-slider-input" "^10.0.4"
-    "@alfalab/core-components-sortable-list" "^2.0.1"
+    "@alfalab/core-components-slider-input" "^10.1.1"
+    "@alfalab/core-components-sortable-list" "^2.0.2"
     "@alfalab/core-components-space" "^4.1.0"
-    "@alfalab/core-components-spinner" "^5.0.1"
+    "@alfalab/core-components-spinner" "^5.0.2"
     "@alfalab/core-components-stack" "^6.0.0"
-    "@alfalab/core-components-status" "^4.0.0"
+    "@alfalab/core-components-status" "^4.1.0"
     "@alfalab/core-components-status-badge" "^2.0.1"
-    "@alfalab/core-components-stepped-progress-bar" "^3.0.2"
-    "@alfalab/core-components-steps" "^2.0.1"
-    "@alfalab/core-components-switch" "^5.0.1"
-    "@alfalab/core-components-system-message" "^3.0.1"
-    "@alfalab/core-components-tab-bar" "^3.0.2"
-    "@alfalab/core-components-table" "^3.0.3"
-    "@alfalab/core-components-tabs" "^9.2.0"
-    "@alfalab/core-components-tag" "^9.0.1"
+    "@alfalab/core-components-stepped-progress-bar" "^3.1.0"
+    "@alfalab/core-components-steps" "^2.0.2"
+    "@alfalab/core-components-switch" "^5.0.2"
+    "@alfalab/core-components-system-message" "^3.0.3"
+    "@alfalab/core-components-tab-bar" "^3.0.3"
+    "@alfalab/core-components-table" "^3.0.6"
+    "@alfalab/core-components-tabs" "^9.2.3"
+    "@alfalab/core-components-tag" "^9.0.3"
     "@alfalab/core-components-text" "^2.0.0"
-    "@alfalab/core-components-textarea" "^9.0.1"
-    "@alfalab/core-components-themes" "^14.1.2"
-    "@alfalab/core-components-time-input" "^3.0.2"
-    "@alfalab/core-components-toast" "^7.0.1"
-    "@alfalab/core-components-toast-plate" "^8.0.1"
-    "@alfalab/core-components-tooltip" "^8.0.3"
+    "@alfalab/core-components-textarea" "^9.0.2"
+    "@alfalab/core-components-themes" "^14.1.3"
+    "@alfalab/core-components-time-input" "^3.0.3"
+    "@alfalab/core-components-toast" "^7.0.2"
+    "@alfalab/core-components-toast-plate" "^8.0.2"
+    "@alfalab/core-components-tooltip" "^8.0.6"
     "@alfalab/core-components-types" "^1.0.0"
-    "@alfalab/core-components-typography" "^5.0.2"
+    "@alfalab/core-components-typography" "^5.0.3"
     "@alfalab/core-components-underlay" "^2.0.0"
-    "@alfalab/core-components-universal-date-input" "^3.0.3"
-    "@alfalab/core-components-universal-modal" "^2.0.4"
-    "@alfalab/core-components-vars" "^10.1.0"
-    "@alfalab/core-components-with-suffix" "^5.0.2"
+    "@alfalab/core-components-universal-date-input" "^3.0.5"
+    "@alfalab/core-components-universal-modal" "^2.0.6"
+    "@alfalab/core-components-vars" "^10.2.0"
+    "@alfalab/core-components-with-suffix" "^5.0.3"
 
 "@alfalab/data@^1.9.2":
   version "1.9.2"

@@ -1,10 +1,10 @@
 import React from 'react';
-import {
-  CoreConfigContext,
-  CoreConfigContextValue,
-} from '@alfalab/core-components-config';
-import Example2 from './Example2';
-import List from './List';
+// import {
+//   CoreConfigContext,
+//   CoreConfigContextValue,
+// } from '@alfalab/core-components-config';
+import Example from './Example';
+// import List from './List';
 
 export const App = () => {
   // const coreConfig = React.useMemo<CoreConfigContextValue>(
@@ -14,10 +14,7 @@ export const App = () => {
 
   return (
     // <CoreConfigContext.Provider value={coreConfig}>
-    <>
-      <List />
-      <Example2 />
-    </>
+    <Example />
     // </CoreConfigContext.Provider>
   );
 };
