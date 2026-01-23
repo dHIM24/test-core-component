@@ -1,48 +1,197 @@
-import React, { FC } from 'react';
-import { Button } from '@alfalab/core-components-button'
-import { ButtonMobile } from '@alfalab/core-components-button/mobile'
-import { BottomSheet } from '@alfalab/core-components-bottom-sheet';
-import { Input } from '@alfalab/core-components-input';
+import React, { type FC, useCallback, useMemo, useRef, useState } from 'react';
+import mergeRefs from 'react-merge-refs';
+// import { InputAutocomplete } from '@alfalab/core-components-input-autocomplete'
+import { InputAutocompleteDesktop } from '@alfalab/core-components-input-autocomplete/desktop';
+import { InputAutocompleteMobile } from '@alfalab/core-components-input-autocomplete/mobile';
+import { Textarea, type TextareaProps } from '@alfalab/core-components-textarea';
+import { ClearButton } from '@alfalab/core-components-input/shared';
+import { ChevronDownMIcon } from '@alfalab/icons-glyph/ChevronDownMIcon';
+import {
+  SearchProps,
+  type BaseSelectChangePayload,
+  type FieldProps,
+  type OptionShape,
+} from '@alfalab/core-components-select/shared';
 
-const Example2: FC = () => {
-    const [open, setOpen] = React.useState(false);
-    const [inputValue, setInputValue] = React.useState('');
+const OPTIONS: OptionShape[] = [
+  { key: '1', content: 'Москва' },
+  { key: '2', content: 'Санкт-Петербург' },
+  { key: '3', content: 'Казань' },
+  { key: '4', content: 'Нижний Новгород' },
+  { key: '5', content: 'Екатеринбург' },
+  { key: '6', content: 'Новосибирск' },
+  { key: '7', content: 'Самара' },
+  { key: '8', content: 'Ростов-на-Дону' },
+];
 
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
-    const handleInputChange = (e: any) => {
-        setInputValue(e.target.value);
+const getOptionText = (option?: OptionShape | null) =>
+  option ? String(option.content ?? option.key) : '';
+
+const CustomTextareaField = React.forwardRef<HTMLTextAreaElement, any>(
+  (
+    {
+      value,
+      onInput,
+      inputProps,
+      innerProps,
+      clear,
+      onClear,
+      label,
+      labelView = 'inner',
+      size = 56,
+      error,
+      hint,
+      disabled,
+      readOnly,
+      placeholder,
+      onChange,
+    },
+    ref,
+  ) => {
+    const textareaRef = useRef<HTMLTextAreaElement>(null);
+    const { onClick, onFocus, onBlur, ref: innerRef, ...restInnerProps } = innerProps ?? {};
+
+    const showClear = Boolean(clear && value && !disabled && !readOnly);
+
+    const handleClick = useCallback(
+      (event: React.MouseEvent<HTMLTextAreaElement>) => {
+        onClick?.(event as unknown as React.MouseEvent<HTMLDivElement | HTMLInputElement>);
+
+        textareaRef.current?.focus();
+      },
+      [onClick],
+    );
+
+    const handleChange: TextareaProps['onChange'] = (event, payload) => {
+      inputProps?.onChange?.(event, payload);
+
+      onChange?.(event, payload);
+      onInput?.(payload.value, 'change');
     };
 
-    return (
-        <div>
-            <ButtonMobile type='button' size={48} onClick={handleOpen} block={true}>
-                Показать анатомию
-            </ButtonMobile>
-            
-            <BottomSheet
-                open={open}
-                iOSLock={true}
-                virtualKeyboard={true}
-                stickyFooter={true}
-                stickyHeader={true}
-                title='Заголовок stickyHeader'
-                disableBlockingScroll={true}
-                actionButton={
-                    <Button>stickyFooter button</Button>
-                }
-                onClose={handleClose}
-                // disableBlockingScroll={true}
-            >
-                <Input
-                    label='Тестовый инпут'
-                    value={inputValue}
-                    onChange={handleInputChange}
-                    placeholder='Введите текст'
-                />
-            </BottomSheet>
-        </div>
-    );
-}
+    const rightAddonsContent =
+      showClear && (
+        <ClearButton onClick={onClear ?? (() => undefined)} disabled={disabled} colors='default' />
+      )
 
-export default Example2;
+    return (
+      <Textarea
+        {...inputProps}
+        {...restInnerProps}
+        ref={mergeRefs([textareaRef, ref])}
+        wrapperRef={mergeRefs(
+          [innerRef, inputProps?.wrapperRef].filter(Boolean) as React.Ref<HTMLDivElement>[],
+        )}
+        block={true}
+        label={label}
+        labelView={labelView}
+        size={size}
+        error={error}
+        hint={hint}
+        disabled={disabled}
+        readOnly={readOnly}
+        placeholder={placeholder}
+        value={value}
+        onChange={handleChange}
+        onBlur={onBlur as TextareaProps['onBlur']}
+        onClick={disabled ? undefined : handleClick}
+        onFocus={disabled ? undefined : (onFocus as TextareaProps['onFocus'])}
+        rightAddons={rightAddonsContent}
+      />
+    );
+  },
+);
+
+const Field: FC = () => {
+  const [searchValue, setSearchValue] = useState('');
+  const [selected, setSelected] = useState<OptionShape | OptionShape[] | null>(null);
+
+  const FieldComponent = CustomTextareaField as React.ComponentType<FieldProps>;
+  const SearchComponent = CustomTextareaField as React.ComponentType<SearchProps>;
+
+  const filteredOptions = useMemo(() => {
+    const normalized = searchValue.trim().toLowerCase();
+
+    if (!normalized) return OPTIONS;
+
+    return OPTIONS.filter((option) =>
+      getOptionText(option).toLowerCase().includes(normalized),
+    );
+  }, [searchValue]);
+
+  const handleInput = useCallback((value: string) => {
+    setSearchValue(value);
+  }, []);
+
+  const handleChange = useCallback(
+    (payload: BaseSelectChangePayload) => {
+
+      setSelected(payload.selected);
+
+      const nextValue = payload.selectedMultiple.map(getOptionText).filter(Boolean).join(', ')
+
+      setSearchValue(nextValue);
+    },
+    [],
+  );
+
+  const handleClear = useCallback(() => {
+    setSelected(null);
+    setSearchValue('');
+    handleInput('');
+  }, [handleInput]);
+
+  // todo: нужно чтобы был один компонент, а Desktop || Mobile раскручивался на уровне кастомного компонента
+  // Например: FieldComponent или SearchComponent - отличные примеры
+  return (
+    <div style={{ display: 'grid', gap: 24, maxWidth: 520 }}>
+      <div>
+        <div style={{ marginBottom: 12, fontWeight: 600 }}>Desktop</div>
+        <InputAutocompleteDesktop
+          block={true}
+          size={56}
+          label='Город'
+          labelView='outer'
+          placeholder='Начните ввод'
+          hint='Textarea как Field'
+          options={filteredOptions}
+          selected={selected}
+          value={searchValue}
+          clear={true}
+          success={true}
+          Arrow={ChevronDownMIcon}
+          Field={FieldComponent}
+          onInput={handleInput}
+          onChange={handleChange}
+          onClear={handleClear}
+        />
+      </div>
+
+      <div>
+        <div style={{ marginBottom: 12, fontWeight: 600 }}>Mobile</div>
+        <InputAutocompleteMobile
+          block={true}
+          size={56}
+          label='Город'
+          labelView='outer'
+          placeholder='Выберите город'
+          hint='Textarea как Field и Search'
+          options={filteredOptions}
+          selected={selected}
+          value={searchValue}
+          clear={true}
+          isBottomSheet={true}
+          readOnly={true}
+          Arrow={ChevronDownMIcon}
+          Field={FieldComponent}
+          Search={SearchComponent}
+          onInput={handleInput}
+          onChange={handleChange}
+          onClear={handleClear}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Field;

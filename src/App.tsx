@@ -3,7 +3,7 @@ import React from 'react';
 //   CoreConfigContext,
 //   CoreConfigContextValue,
 // } from '@alfalab/core-components-config';
-import Example from './Example';
+import Field from './Example2';
 // import List from './List';
 
 export const App = () => {
@@ -14,7 +14,7 @@ export const App = () => {
 
   return (
     // <CoreConfigContext.Provider value={coreConfig}>
-    <Example />
+    <Field />
     // </CoreConfigContext.Provider>
   );
 };
