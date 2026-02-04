@@ -45,6 +45,7 @@ const CustomTextareaField = React.forwardRef<HTMLTextAreaElement, any>(
       readOnly,
       placeholder,
       onChange,
+      open,
     },
     ref,
   ) => {
@@ -54,17 +55,17 @@ const CustomTextareaField = React.forwardRef<HTMLTextAreaElement, any>(
     const showClear = Boolean(clear && value && !disabled && !readOnly);
 
     const handleClick = useCallback(
-      (event: React.MouseEvent<HTMLTextAreaElement>) => {
-        onClick?.(event as unknown as React.MouseEvent<HTMLDivElement | HTMLInputElement>);
-
+      (event: React.MouseEvent<HTMLDivElement>) => {
+        if (disabled) return;
         textareaRef.current?.focus();
+        if (open) return;
+        onClick?.(event as unknown as React.MouseEvent<HTMLDivElement | HTMLInputElement>);
       },
-      [onClick],
+      [onClick, open, disabled],
     );
 
     const handleChange: TextareaProps['onChange'] = (event, payload) => {
       inputProps?.onChange?.(event, payload);
-
       onChange?.(event, payload);
       onInput?.(payload.value, 'change');
     };
@@ -72,16 +73,14 @@ const CustomTextareaField = React.forwardRef<HTMLTextAreaElement, any>(
     const rightAddonsContent =
       showClear && (
         <ClearButton onClick={onClear ?? (() => undefined)} disabled={disabled} colors='default' />
-      )
+      );
 
-    return (
+    const textarea = (
       <Textarea
         {...inputProps}
         {...restInnerProps}
         ref={mergeRefs([textareaRef, ref])}
-        wrapperRef={mergeRefs(
-          [innerRef, inputProps?.wrapperRef].filter(Boolean) as React.Ref<HTMLDivElement>[],
-        )}
+        wrapperRef={inputProps?.wrapperRef}
         block={true}
         label={label}
         labelView={labelView}
@@ -94,10 +93,15 @@ const CustomTextareaField = React.forwardRef<HTMLTextAreaElement, any>(
         value={value}
         onChange={handleChange}
         onBlur={onBlur as TextareaProps['onBlur']}
-        onClick={disabled ? undefined : handleClick}
         onFocus={disabled ? undefined : (onFocus as TextareaProps['onFocus'])}
         rightAddons={rightAddonsContent}
       />
+    );
+
+    return (
+      <div ref={innerRef} onClick={handleClick} style={{ width: '100%' }}>
+        {textarea}
+      </div>
     );
   },
 );
@@ -119,9 +123,13 @@ const Field: FC = () => {
     );
   }, [searchValue]);
 
-  const handleInput = useCallback((value: string) => {
-    setSearchValue(value);
-  }, []);
+  const handleInput = useCallback(
+    (value: string, reason?: 'close' | 'change') => {
+      if (reason === 'close' && selected != null) return;
+      setSearchValue(value);
+    },
+    [selected],
+  );
 
   const handleChange = useCallback(
     (payload: BaseSelectChangePayload) => {
@@ -159,6 +167,8 @@ const Field: FC = () => {
           value={searchValue}
           clear={true}
           success={true}
+          allowUnselect={true}
+          closeOnSelect={true}
           Arrow={ChevronDownMIcon}
           Field={FieldComponent}
           onInput={handleInput}
@@ -180,6 +190,7 @@ const Field: FC = () => {
           selected={selected}
           value={searchValue}
           clear={true}
+          allowUnselect={true}
           isBottomSheet={true}
           readOnly={true}
           Arrow={ChevronDownMIcon}
