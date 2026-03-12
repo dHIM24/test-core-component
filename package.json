@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@alfalab/core-components": "49.14.0-771cf4fc784a9cc037552ce03739f0fcdd4edbee",
+    "@alfalab/core-components": "50.2.0-abd29ceb1bf74b8e9bd542a8613956f72698cc8a",
     "@alfalab/core-components-config": "^1.0.0",
     "@alfalab/core-components-stack-context": "^1.0.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -24,7 +24,8 @@
     "start:prod": "arui-scripts start:prod",
     "build": "arui-scripts build",
     "test": "arui-scripts test",
-    "docker-build": "arui-scripts docker-build"
+    "docker-build": "arui-scripts docker-build",
+    "verify:deps": "node scripts/verify-deps.js"
   },
   "browserslist": {
     "production": [
