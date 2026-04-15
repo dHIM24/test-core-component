@@ -1,0 +1,182 @@
+:root {
+    --gap-s: 12px;
+    --gap-0: 0px;
+    --gap-12: var(--gap-s);
+}
+:root {
+    --font-family-system:
+        system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.typography__transparent_javr3 {
+    opacity: 0;
+}
+:root {
+    --text-paragraph-margin-bottom: var(--gap-0) var(--gap-0) var(--gap-12);
+}
+.typography__paragraph_javr3 {
+    margin: var(--gap-0);
+    padding: var(--gap-0);
+}
+.typography__paragraphWithMargins_javr3 {
+    padding: var(--gap-0);
+    margin: var(--text-paragraph-margin-bottom);
+}
+.typography__component_javr3 {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.typography__component_javr3.typography__bold_javr3 {
+        font-weight: 700;
+    }
+.typography__component_javr3.typography__medium_javr3 {
+        font-weight: 500;
+    }
+.typography__caps_javr3 {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        font-family: var(--font-family-system);
+    }
+.typography__caps_javr3.typography__bold_javr3 {
+        font-weight: 700;
+    }
+.typography__caps_javr3.typography__medium_javr3 {
+        font-weight: 500;
+    }
+.typography__tagline_javr3 {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        font-family: var(--font-family-system);
+    }
+.typography__tagline_javr3.typography__bold_javr3 {
+        font-weight: 700;
+    }
+.typography__tagline_javr3.typography__medium_javr3 {
+        font-weight: 500;
+    }
+.typography__primary-large_javr3 {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.typography__primary-large_javr3.typography__bold_javr3 {
+            font-weight: 700;
+        }
+.typography__primary-large_javr3.typography__medium_javr3 {
+            font-weight: 500;
+        }
+.typography__primary-medium_javr3 {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.typography__primary-medium_javr3.typography__bold_javr3 {
+            font-weight: 700;
+        }
+.typography__primary-medium_javr3.typography__medium_javr3 {
+            font-weight: 500;
+        }
+.typography__primary-small_javr3 {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.typography__primary-small_javr3.typography__bold_javr3 {
+            font-weight: 700;
+        }
+.typography__primary-small_javr3.typography__medium_javr3 {
+            font-weight: 500;
+        }
+.typography__component-primary_javr3 {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.typography__component-primary_javr3.typography__bold_javr3 {
+            font-weight: 700;
+        }
+.typography__component-primary_javr3.typography__medium_javr3 {
+            font-weight: 500;
+        }
+.typography__secondary-large_javr3 {
+            font-size: 13px;
+            line-height: 16px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.typography__secondary-large_javr3.typography__bold_javr3 {
+            font-weight: 700;
+        }
+.typography__secondary-large_javr3.typography__medium_javr3 {
+            font-weight: 500;
+        }
+.typography__secondary-medium_javr3 {
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.typography__secondary-medium_javr3.typography__bold_javr3 {
+            font-weight: 700;
+        }
+.typography__secondary-medium_javr3.typography__medium_javr3 {
+            font-weight: 500;
+        }
+.typography__secondary-small_javr3 {
+            font-size: 11px;
+            line-height: 16px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.typography__secondary-small_javr3.typography__bold_javr3 {
+            font-weight: 700;
+        }
+.typography__secondary-small_javr3.typography__medium_javr3 {
+            font-weight: 500;
+        }
+.typography__component-secondary_javr3 {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.typography__component-secondary_javr3.typography__bold_javr3 {
+            font-weight: 700;
+        }
+.typography__component-secondary_javr3.typography__medium_javr3 {
+            font-weight: 500;
+        }
+.typography__rowLimit1_javr3 {
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+.typography__rowLimit2_javr3 {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.typography__rowLimit3_javr3 {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.typography__monospace_javr3 {
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+}

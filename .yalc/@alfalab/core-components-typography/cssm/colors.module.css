@@ -1,0 +1,82 @@
+:root {
+    --color-light-accent-primary: #ef3124;
+    --color-light-text-attention: #ea8313;
+    --color-light-text-info: #2a77ef;
+    --color-light-text-negative: #ec2d20;
+    --color-light-text-positive: #0d9336;
+    --color-light-text-primary: rgba(3, 3, 6, 0.88);
+    --color-light-text-primary-inverted: rgba(255, 255, 255, 0.94);
+    --color-light-text-quaternary: rgba(5, 11, 44, 0.18);
+    --color-light-text-secondary: rgba(4, 4, 19, 0.55);
+    --color-light-text-secondary-inverted: rgba(238, 238, 251, 0.55);
+    --color-light-text-tertiary: rgba(5, 8, 29, 0.38);
+    --color-light-text-tertiary-inverted: rgba(233, 233, 250, 0.37);
+    --color-static-accent-primary: #ef3124;
+    --color-static-text-positive: #0d9336;
+    --color-static-text-primary-dark: #0e0e0e;
+    --color-static-text-primary-light: #fff;
+    --color-static-text-secondary-dark: rgba(4, 4, 19, 0.55);
+    --color-static-text-secondary-light: rgba(238, 238, 251, 0.55);
+    --color-static-text-tertiary-dark: rgba(5, 8, 29, 0.38);
+    --color-static-text-tertiary-light: rgba(233, 233, 250, 0.37);
+}
+.tertiary {
+    color: var(--color-light-text-tertiary);
+}
+.disabled {
+    color: var(--color-light-text-quaternary);
+}
+.accent {
+    color: var(--color-light-accent-primary);
+}
+.primary {
+    color: var(--color-light-text-primary);
+}
+.attention {
+    color: var(--color-light-text-attention);
+}
+.positive {
+    color: var(--color-light-text-positive);
+}
+.secondary {
+    color: var(--color-light-text-secondary);
+}
+.tertiary-inverted {
+    color: var(--color-light-text-tertiary-inverted);
+}
+.primary-inverted {
+    color: var(--color-light-text-primary-inverted);
+}
+.secondary-inverted {
+    color: var(--color-light-text-secondary-inverted);
+}
+.link {
+    color: var(--color-light-text-info);
+}
+.negative {
+    color: var(--color-light-text-negative);
+}
+.static-primary-light {
+    color: var(--color-static-text-primary-light);
+}
+.static-secondary-light {
+    color: var(--color-static-text-secondary-light);
+}
+.static-tertiary-light {
+    color: var(--color-static-text-tertiary-light);
+}
+.static-primary-dark {
+    color: var(--color-static-text-primary-dark);
+}
+.static-secondary-dark {
+    color: var(--color-static-text-secondary-dark);
+}
+.static-tertiary-dark {
+    color: var(--color-static-text-tertiary-dark);
+}
+.static-accent {
+    color: var(--color-static-accent-primary);
+}
+.static-positive {
+    color: var(--color-static-text-positive);
+}

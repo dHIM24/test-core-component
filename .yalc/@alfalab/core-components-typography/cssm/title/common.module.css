@@ -1,0 +1,29 @@
+:root {
+    --gap-0: 0px;
+}
+.transparent {
+    opacity: 0;
+}
+.component {
+    margin: var(--gap-0);
+    padding: var(--gap-0);
+}
+.rowLimit1 {
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+.rowLimit2 {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.rowLimit3 {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

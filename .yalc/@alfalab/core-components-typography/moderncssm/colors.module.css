@@ -1,0 +1,81 @@
+
+
+.tertiary {
+    color: var(--color-light-text-tertiary);
+}
+
+.disabled {
+    color: var(--color-light-text-quaternary);
+}
+
+.accent {
+    color: var(--color-light-accent-primary);
+}
+
+.primary {
+    color: var(--color-light-text-primary);
+}
+
+.attention {
+    color: var(--color-light-text-attention);
+}
+
+.positive {
+    color: var(--color-light-text-positive);
+}
+
+.secondary {
+    color: var(--color-light-text-secondary);
+}
+
+.tertiary-inverted {
+    color: var(--color-light-text-tertiary-inverted);
+}
+
+.primary-inverted {
+    color: var(--color-light-text-primary-inverted);
+}
+
+.secondary-inverted {
+    color: var(--color-light-text-secondary-inverted);
+}
+
+.link {
+    color: var(--color-light-text-info);
+}
+
+.negative {
+    color: var(--color-light-text-negative);
+}
+
+.static-primary-light {
+    color: var(--color-static-text-primary-light);
+}
+
+.static-secondary-light {
+    color: var(--color-static-text-secondary-light);
+}
+
+.static-tertiary-light {
+    color: var(--color-static-text-tertiary-light);
+}
+
+.static-primary-dark {
+    color: var(--color-static-text-primary-dark);
+}
+
+.static-secondary-dark {
+    color: var(--color-static-text-secondary-dark);
+}
+
+.static-tertiary-dark {
+    color: var(--color-static-text-tertiary-dark);
+}
+
+.static-accent {
+    color: var(--color-static-accent-primary);
+}
+
+.static-positive {
+    color: var(--color-static-text-positive);
+}

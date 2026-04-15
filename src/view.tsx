@@ -1,136 +1,129 @@
-import React from 'react'
-import { BadgeIcon } from './badge-icon/BadgeIcon'
+import React, { useEffect, useRef, useState } from 'react'
+import { Button } from '@alfalab/core-components-button'
 
-const DiamondLogo = () => (
-  <div style={{
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: 2,
-    transform: 'rotate(45deg)',
-    width: '35%',
-    height: '35%',
-  }}>
-    {[0, 1, 2, 3].map((i) => (
-      <div
-        key={i}
-        style={{
-          background: '#fff',
-          borderRadius: 1,
-          aspectRatio: '1',
-        }}
-      />
-    ))}
-  </div>
-)
+type ListModule = typeof import('@alfalab/core-components-list')
 
-const sectionStyle: React.CSSProperties = {
-  padding: 24,
-  borderRadius: 12,
-  display: 'flex',
-  gap: 24,
-  alignItems: 'center',
-  flexWrap: 'wrap',
-}
+const mobileMode = require('@alfalab/core-components-themes/mobile') as string
+const darkMode = require('@alfalab/core-components-themes/dark') as string
+const LIST_VERSION = '5.0.1'
 
 export const View = () => {
+  const [counter, setCounter] = useState(0)
+  const [isDarkThemeEnabled, setIsDarkThemeEnabled] = useState(false)
+  const [isListVisible, setIsListVisible] = useState(false)
+  const [listModule, setListModule] = useState<ListModule | null>(null)
+  const [isLoadingList, setIsLoadingList] = useState(false)
+  const [baselineValue, setBaselineValue] = useState('')
+
+  const firstShowWasHandledRef = useRef(false)
+
+  useEffect(() => {
+    setBaselineValue(
+      getComputedStyle(document.documentElement)
+        .getPropertyValue('--color-light-text-primary')
+        .trim(),
+    )
+  }, [])
+
+  const handleIncrement = () => {
+    setCounter((prev) => prev + 1)
+  }
+
+  const handleToggleTheme = () => {
+    setIsDarkThemeEnabled((prev) => !prev)
+  }
+
+  const handleToggleList = async () => {
+    if (isListVisible) {
+      setIsListVisible(false)
+      return
+    }
+
+    if (listModule) {
+      setIsListVisible(true)
+      return
+    }
+
+    setIsLoadingList(true)
+
+    try {
+      const mod = await import('@alfalab/core-components-list')
+      setListModule(mod)
+      setIsListVisible(true)
+
+      if (!firstShowWasHandledRef.current) {
+        firstShowWasHandledRef.current = true
+
+        const cssVarValue = getComputedStyle(document.documentElement)
+          .getPropertyValue('--color-light-text-primary')
+          .trim()
+
+        const isReproduced = cssVarValue !== baselineValue
+
+        console.log(
+          '[List theme bug check]',
+          JSON.stringify(
+            {
+              activeTheme: isDarkThemeEnabled ? 'dark' : 'default',
+              reproduced: isReproduced ? 'воспроизвелось' : 'не воспроизвелось',
+              cssVarName: '--color-light-text-primary',
+              cssVarValue,
+              baselineCssVarValue: baselineValue,
+              bodyBackgroundColor: getComputedStyle(document.body).backgroundColor,
+              bodyTextColor: getComputedStyle(document.body).color,
+              listVersion: LIST_VERSION,
+            },
+            null,
+            2,
+          ),
+        )
+      }
+    } finally {
+      setIsLoadingList(false)
+    }
+  }
+
+  const List = listModule?.List
+
   return (
-    <div style={{ padding: 40, fontFamily: '-apple-system, sans-serif' }}>
-      <h2 style={{ marginBottom: 24 }}>Badge Cutout Icon Demo</h2>
+    <>
+      <style>{mobileMode}</style>
+      {isDarkThemeEnabled ? <style>{darkMode}</style> : null}
 
-      {/* DEBUG: ×8 scale для проверки junction-касательности */}
-      <h3>DEBUG — 40px ×8</h3>
-      <div style={{ ...sectionStyle, background: '#f0f0f0', height: 400, alignItems: 'flex-start', paddingTop: 40, paddingLeft: 60, overflow: 'visible' }}>
-        <div style={{ transform: 'scale(8)', transformOrigin: 'top left', overflow: 'visible' }}>
-          <BadgeIcon size={40} variant="mobile" corner="top-right" badge={1}>
-            <DiamondLogo />
-          </BadgeIcon>
+      <style>
+        {`
+          body {
+            background: var(--color-light-base-bg-secondary);
+            color: var(--color-light-text-primary);
+            margin: 16px;
+          }
+        `}
+      </style>
+
+      <p>Вы кликнули {counter} раз(а)</p>
+
+      <Button onClick={handleIncrement}>Нажми на меня</Button>
+
+      <div style={{ marginTop: 12 }}>
+        <Button onClick={handleToggleTheme}>
+          {isDarkThemeEnabled ? 'Выключить dark theme' : 'Включить dark theme'}
+        </Button>
+      </div>
+
+      <div style={{ marginTop: 12 }}>
+        <Button onClick={handleToggleList} disabled={isLoadingList}>
+          {isListVisible ? 'Скрыть List' : 'Показать List'}
+        </Button>
+      </div>
+
+      {isListVisible && List ? (
+        <div style={{ marginTop: 12 }}>
+          <List>
+            <List.Item>Текст внутри List</List.Item>
+            <List.Item>Еще один пункт</List.Item>
+          </List>
         </div>
-      </div>
-
-      {/* 40px — основной размер */}
-      <h3 style={{ marginTop: 32 }}>40px — mobile</h3>
-      <div style={{ ...sectionStyle, background: '#f0f0f0' }}>
-        <BadgeIcon size={40} badge={null}>
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={40} badge="dot">
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={40} badge={1}>
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={40} badge={99}>
-          <DiamondLogo />
-        </BadgeIcon>
-      </div>
-
-      {/* 32px — компактный размер */}
-      <h3 style={{ marginTop: 32 }}>32px — mobile</h3>
-      <div style={{ ...sectionStyle, background: '#f0f0f0' }}>
-        <BadgeIcon size={32} badge={null}>
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={32} badge="dot">
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={32} badge={1}>
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={32} badge={99}>
-          <DiamondLogo />
-        </BadgeIcon>
-      </div>
-
-      {/* Все 4 угла */}
-      <h3 style={{ marginTop: 32 }}>Все углы — 40px, dot</h3>
-      <div style={{ ...sectionStyle, background: '#f0f0f0' }}>
-        <BadgeIcon size={40} corner="top-right" badge="dot">
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={40} corner="top-left" badge="dot">
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={40} corner="bottom-right" badge="dot">
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={40} corner="bottom-left" badge="dot">
-          <DiamondLogo />
-        </BadgeIcon>
-      </div>
-
-      {/* Прозрачность cutout — разные фоны */}
-      <h3 style={{ marginTop: 32 }}>Прозрачность cutout</h3>
-      <div style={{ display: 'flex', gap: 24, flexWrap: 'wrap' }}>
-        <div style={{ ...sectionStyle, background: '#ffffff' }}>
-          <BadgeIcon size={40} badge={1}>
-            <DiamondLogo />
-          </BadgeIcon>
-        </div>
-        <div style={{ ...sectionStyle, background: '#e0e0e0' }}>
-          <BadgeIcon size={40} badge={1}>
-            <DiamondLogo />
-          </BadgeIcon>
-        </div>
-        <div style={{
-          ...sectionStyle,
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-        }}>
-          <BadgeIcon size={40} badge={1}>
-            <DiamondLogo />
-          </BadgeIcon>
-        </div>
-      </div>
-
-      {/* Оба размера рядом */}
-      <h3 style={{ marginTop: 32 }}>32px vs 40px</h3>
-      <div style={{ ...sectionStyle, background: '#f0f0f0' }}>
-        <BadgeIcon size={32} badge={1}>
-          <DiamondLogo />
-        </BadgeIcon>
-        <BadgeIcon size={40} badge={1}>
-          <DiamondLogo />
-        </BadgeIcon>
-      </div>
-    </div>
+      ) : null}
+    </>
   )
 }

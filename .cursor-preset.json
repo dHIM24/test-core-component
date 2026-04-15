@@ -1,0 +1,13 @@
+{
+  "preset": "alfalab",
+  "files": [
+    "alfa-component.mdc",
+    "alfa-testing.mdc",
+    "alfa-typescript.mdc"
+  ],
+  "disabled": [
+    "react-pattern.mdc",
+    "testing.mdc",
+    "typescript.mdc"
+  ]
+}

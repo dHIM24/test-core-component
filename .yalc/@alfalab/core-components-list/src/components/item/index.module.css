@@ -1,0 +1,44 @@
+.item {
+    --list-marker-color: currentColor;
+    --list-item-margin: var(--gap-12);
+    margin-top: var(--list-item-margin);
+    display: flex;
+
+    &:first-child {
+        margin-top: var(--gap-0);
+    }
+
+    &.reversed:first-child {
+        margin-top: var(--list-item-margin);
+    }
+
+    &.reversed:last-child {
+        margin-top: var(--gap-0);
+    }
+
+    &.unorderedItem {
+        display: list-item;
+    }
+}
+
+.slot {
+    min-width: 20px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding-right: var(--gap-4);
+    flex-shrink: 0;
+
+    &.defaultColor {
+        color: var(--list-marker-color);
+    }
+
+    &.disc {
+        justify-content: center;
+        padding: var(--gap-0) var(--gap-4);
+    }
+}
+
+.caption {
+    margin-top: var(--gap-2);
+}

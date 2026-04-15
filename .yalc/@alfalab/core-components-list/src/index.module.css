@@ -1,0 +1,27 @@
+@import '@alfalab/core-components-vars/src/typography.css';
+
+.list {
+    margin: var(--gap-0);
+    padding: var(--gap-0);
+    color: inherit;
+
+    @mixin paragraph_primary_medium;
+}
+
+.lowerAlpha {
+    list-style-type: lower-alpha;
+    padding-left: var(--gap-20);
+}
+
+.decimal {
+    list-style-type: decimal;
+}
+
+ol.list {
+    display: flex;
+    flex-direction: column;
+
+    &.reversed {
+        flex-direction: column-reverse;
+    }
+}

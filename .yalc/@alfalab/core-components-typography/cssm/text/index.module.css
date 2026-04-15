@@ -1,0 +1,182 @@
+:root {
+    --gap-s: 12px;
+    --gap-0: 0px;
+    --gap-12: var(--gap-s);
+}
+:root {
+    --font-family-system:
+        system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.transparent {
+    opacity: 0;
+}
+:root {
+    --text-paragraph-margin-bottom: var(--gap-0) var(--gap-0) var(--gap-12);
+}
+.paragraph {
+    margin: var(--gap-0);
+    padding: var(--gap-0);
+}
+.paragraphWithMargins {
+    padding: var(--gap-0);
+    margin: var(--text-paragraph-margin-bottom);
+}
+.component {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.component.bold {
+        font-weight: 700;
+    }
+.component.medium {
+        font-weight: 500;
+    }
+.caps {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        font-family: var(--font-family-system);
+    }
+.caps.bold {
+        font-weight: 700;
+    }
+.caps.medium {
+        font-weight: 500;
+    }
+.tagline {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        font-family: var(--font-family-system);
+    }
+.tagline.bold {
+        font-weight: 700;
+    }
+.tagline.medium {
+        font-weight: 500;
+    }
+.primary-large {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.primary-large.bold {
+            font-weight: 700;
+        }
+.primary-large.medium {
+            font-weight: 500;
+        }
+.primary-medium {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.primary-medium.bold {
+            font-weight: 700;
+        }
+.primary-medium.medium {
+            font-weight: 500;
+        }
+.primary-small {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.primary-small.bold {
+            font-weight: 700;
+        }
+.primary-small.medium {
+            font-weight: 500;
+        }
+.component-primary {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.component-primary.bold {
+            font-weight: 700;
+        }
+.component-primary.medium {
+            font-weight: 500;
+        }
+.secondary-large {
+            font-size: 13px;
+            line-height: 16px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.secondary-large.bold {
+            font-weight: 700;
+        }
+.secondary-large.medium {
+            font-weight: 500;
+        }
+.secondary-medium {
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.secondary-medium.bold {
+            font-weight: 700;
+        }
+.secondary-medium.medium {
+            font-weight: 500;
+        }
+.secondary-small {
+            font-size: 11px;
+            line-height: 16px;
+            font-weight: 400;
+            font-family: var(--font-family-system);
+        }
+.secondary-small.bold {
+            font-weight: 700;
+        }
+.secondary-small.medium {
+            font-weight: 500;
+        }
+.component-secondary {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.component-secondary.bold {
+            font-weight: 700;
+        }
+.component-secondary.medium {
+            font-weight: 500;
+        }
+.rowLimit1 {
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+.rowLimit2 {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.rowLimit3 {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.monospace {
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+}

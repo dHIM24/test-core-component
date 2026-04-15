@@ -1,0 +1,82 @@
+:root {
+    --color-light-accent-primary: #ef3124;
+    --color-light-text-attention: #ea8313;
+    --color-light-text-info: #2a77ef;
+    --color-light-text-negative: #ec2d20;
+    --color-light-text-positive: #0d9336;
+    --color-light-text-primary: rgba(3, 3, 6, 0.88);
+    --color-light-text-primary-inverted: rgba(255, 255, 255, 0.94);
+    --color-light-text-quaternary: rgba(5, 11, 44, 0.18);
+    --color-light-text-secondary: rgba(4, 4, 19, 0.55);
+    --color-light-text-secondary-inverted: rgba(238, 238, 251, 0.55);
+    --color-light-text-tertiary: rgba(5, 8, 29, 0.38);
+    --color-light-text-tertiary-inverted: rgba(233, 233, 250, 0.37);
+    --color-static-accent-primary: #ef3124;
+    --color-static-text-positive: #0d9336;
+    --color-static-text-primary-dark: #0e0e0e;
+    --color-static-text-primary-light: #fff;
+    --color-static-text-secondary-dark: rgba(4, 4, 19, 0.55);
+    --color-static-text-secondary-light: rgba(238, 238, 251, 0.55);
+    --color-static-text-tertiary-dark: rgba(5, 8, 29, 0.38);
+    --color-static-text-tertiary-light: rgba(233, 233, 250, 0.37);
+}
+.typography__tertiary_kmpvw {
+    color: var(--color-light-text-tertiary);
+}
+.typography__disabled_kmpvw {
+    color: var(--color-light-text-quaternary);
+}
+.typography__accent_kmpvw {
+    color: var(--color-light-accent-primary);
+}
+.typography__primary_kmpvw {
+    color: var(--color-light-text-primary);
+}
+.typography__attention_kmpvw {
+    color: var(--color-light-text-attention);
+}
+.typography__positive_kmpvw {
+    color: var(--color-light-text-positive);
+}
+.typography__secondary_kmpvw {
+    color: var(--color-light-text-secondary);
+}
+.typography__tertiary-inverted_kmpvw {
+    color: var(--color-light-text-tertiary-inverted);
+}
+.typography__primary-inverted_kmpvw {
+    color: var(--color-light-text-primary-inverted);
+}
+.typography__secondary-inverted_kmpvw {
+    color: var(--color-light-text-secondary-inverted);
+}
+.typography__link_kmpvw {
+    color: var(--color-light-text-info);
+}
+.typography__negative_kmpvw {
+    color: var(--color-light-text-negative);
+}
+.typography__static-primary-light_kmpvw {
+    color: var(--color-static-text-primary-light);
+}
+.typography__static-secondary-light_kmpvw {
+    color: var(--color-static-text-secondary-light);
+}
+.typography__static-tertiary-light_kmpvw {
+    color: var(--color-static-text-tertiary-light);
+}
+.typography__static-primary-dark_kmpvw {
+    color: var(--color-static-text-primary-dark);
+}
+.typography__static-secondary-dark_kmpvw {
+    color: var(--color-static-text-secondary-dark);
+}
+.typography__static-tertiary-dark_kmpvw {
+    color: var(--color-static-text-tertiary-dark);
+}
+.typography__static-accent_kmpvw {
+    color: var(--color-static-accent-primary);
+}
+.typography__static-positive_kmpvw {
+    color: var(--color-static-text-positive);
+}

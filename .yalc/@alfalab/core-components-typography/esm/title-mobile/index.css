@@ -1,0 +1,136 @@
+:root {
+    --gap-m: 16px;
+    --gap-xl: 24px;
+    --gap-3xl: 40px;
+    --gap-0: 0px;
+    --gap-16: var(--gap-m);
+    --gap-24: var(--gap-xl);
+    --gap-40: var(--gap-3xl);
+}
+:root {
+    --font-family-system:
+        system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+    --font-family-styrene:
+        'Styrene UI', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica,
+        sans-serif;
+}
+.typography__xlarge_17h7t {
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.typography__xlarge_17h7t.typography__font_17h7t {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__regular-xlarge_17h7t {
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.typography__regular-xlarge_17h7t.typography__system_17h7t {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__large_17h7t {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.typography__large_17h7t.typography__font_17h7t {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__regular-large_17h7t {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.typography__regular-large_17h7t.typography__system_17h7t {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__medium_17h7t {
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.typography__medium_17h7t.typography__font_17h7t {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__regular-medium_17h7t {
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.typography__regular-medium_17h7t.typography__system_17h7t {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__small_17h7t {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.typography__small_17h7t.typography__font_17h7t {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__regular-small_17h7t {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.typography__regular-small_17h7t.typography__system_17h7t {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__xsmall_17h7t {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.typography__xsmall_17h7t.typography__font_17h7t {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__regular-xsmall_17h7t {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.typography__regular-xsmall_17h7t.typography__system_17h7t {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.typography__component_17h7t.typography__margins-xlarge_17h7t {
+        margin: var(--gap-0) var(--gap-0) var(--gap-24);
+    }
+.typography__component_17h7t.typography__margins-large_17h7t {
+        margin: var(--gap-40) var(--gap-0) var(--gap-16);
+    }
+.typography__component_17h7t.typography__margins-medium_17h7t {
+        margin: var(--gap-40) var(--gap-0) var(--gap-16);
+    }
+.typography__component_17h7t.typography__margins-small_17h7t {
+        margin: var(--gap-40) var(--gap-0) var(--gap-16);
+    }
+.typography__component_17h7t .typography__margins-xsmall_17h7t {
+        margin: var(--gap-40) var(--gap-0) var(--gap-16);
+    }

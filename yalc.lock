@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "packages": {
+    "@alfalab/core-components-list": {
+      "signature": "052b3795c611548e771ef15c9e404b04",
+      "file": true
+    },
+    "@alfalab/core-components-typography": {
+      "signature": "315f7515da03d68eb5f9bc74894b3b67",
+      "file": true
+    }
+  }
+}

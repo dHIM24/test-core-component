@@ -1,0 +1,1 @@
+{"version":3,"file":"presets.js","sources":["../src/presets.ts"],"sourcesContent":["export const listPresets = {\n    mobile: {\n        tag: 'ul',\n        marker: '–',\n    },\n};\n"],"names":[],"mappings":"AAAa,IAAA,WAAW,GAAG;AACvB,IAAA,MAAM,EAAE;AACJ,QAAA,GAAG,EAAE,IAAI;AACT,QAAA,MAAM,EAAE,GAAG;AACd,KAAA;;;;;"}

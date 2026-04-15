@@ -1,0 +1,136 @@
+:root {
+    --gap-m: 16px;
+    --gap-xl: 24px;
+    --gap-3xl: 40px;
+    --gap-0: 0px;
+    --gap-16: var(--gap-m);
+    --gap-24: var(--gap-xl);
+    --gap-40: var(--gap-3xl);
+}
+:root {
+    --font-family-system:
+        system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+    --font-family-styrene:
+        'Styrene UI', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica,
+        sans-serif;
+}
+.xlarge {
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.xlarge.font {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.regular-xlarge {
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.regular-xlarge.system {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.large {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.large.font {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.regular-large {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.regular-large.system {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.medium {
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.medium.font {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.regular-medium {
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.regular-medium.system {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.small {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.small.font {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.regular-small {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.regular-small.system {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.xsmall {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        font-family: var(--font-family-system);
+    }
+.xsmall.font {
+            font-weight: 500;
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.regular-xsmall {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: var(--font-family-system);
+    }
+.regular-xsmall.system {
+            font-feature-settings: 'ss01';
+            font-family: var(--font-family-styrene);
+        }
+.component.margins-xlarge {
+        margin: var(--gap-0) var(--gap-0) var(--gap-24);
+    }
+.component.margins-large {
+        margin: var(--gap-40) var(--gap-0) var(--gap-16);
+    }
+.component.margins-medium {
+        margin: var(--gap-40) var(--gap-0) var(--gap-16);
+    }
+.component.margins-small {
+        margin: var(--gap-40) var(--gap-0) var(--gap-16);
+    }
+.component .margins-xsmall {
+        margin: var(--gap-40) var(--gap-0) var(--gap-16);
+    }

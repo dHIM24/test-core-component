@@ -1,0 +1,42 @@
+@import '@alfalab/core-components-vars/src/index.css';
+@import '../margins.module.css';
+
+@each $view in xlarge, large, medium, small, xsmall {
+    .$(view) {
+        @mixin headline-system_$(view);
+
+        &.font {
+            @subtract-mixin headline_$(view), headline-system_$(view);
+        }
+    }
+
+    .regular-$(view) {
+        @mixin promo-system_$(view);
+
+        &.font {
+            @subtract-mixin promo_$(view), promo-system_$(view);
+        }
+    }
+}
+
+.component {
+    &.margins-xlarge {
+        @mixin margin-large;
+    }
+
+    &.margins-large {
+        @mixin margin-medium;
+    }
+
+    &.margins-medium {
+        @mixin margin-medium;
+    }
+
+    &.margins-small {
+        @mixin margin-small;
+    }
+
+    &.margins-xsmall {
+        @mixin margin-small;
+    }
+}

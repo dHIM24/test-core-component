@@ -1,0 +1,29 @@
+:root {
+    --gap-0: 0px;
+}
+.typography__transparent_1xzh4 {
+    opacity: 0;
+}
+.typography__component_1xzh4 {
+    margin: var(--gap-0);
+    padding: var(--gap-0);
+}
+.typography__rowLimit1_1xzh4 {
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+.typography__rowLimit2_1xzh4 {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.typography__rowLimit3_1xzh4 {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
