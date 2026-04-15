@@ -3,8 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { App } from './App';
+// import Example from './Example';
 
-const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+const container = document.getElementById('react-app');
+
+if (!container) {
+  throw new Error(
+    '#react-app контейнер не найден. Проверь шаблон HtmlWebpackPlugin или overrides.',
+  );
+}
+
+const root = ReactDOM.createRoot(container);
 root.render(
   <React.StrictMode>
     <App />
